@@ -12,3 +12,8 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_actionCadastrar_Professor_triggered()
+{
+  QMessageBox::information(this, "Cadastro de professor", "Tela de teste de cadastro");
+}
