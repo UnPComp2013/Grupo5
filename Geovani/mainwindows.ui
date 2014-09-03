@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>ProgramadeHorario</class>
+ <widget class="QMainWindow" name="ProgramadeHorario">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -17,50 +17,47 @@
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>0</y>
+      <x>40</x>
+      <y>20</y>
       <width>151</width>
-      <height>21</height>
+      <height>20</height>
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>0</y>
-      <width>75</width>
-      <height>23</height>
+      <x>10</x>
+      <y>20</y>
+      <width>46</width>
+      <height>13</height>
      </rect>
     </property>
     <property name="text">
-     <string>Pesquisar</string>
+     <string>Nome</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>0</y>
-      <width>75</width>
-      <height>23</height>
+      <x>210</x>
+      <y>20</y>
+      <width>46</width>
+      <height>13</height>
      </rect>
     </property>
     <property name="text">
-     <string>Alterar</string>
+     <string>Matricula</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QLineEdit" name="lineEdit_2">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>0</y>
-      <width>75</width>
-      <height>23</height>
+      <x>270</x>
+      <y>20</y>
+      <width>113</width>
+      <height>20</height>
      </rect>
-    </property>
-    <property name="text">
-     <string>Cancelar</string>
     </property>
    </widget>
   </widget>
@@ -92,23 +89,47 @@
      </property>
      <addaction name="actionJornada_Semanal"/>
     </widget>
-    <addaction name="actionProfessores"/>
-    <addaction name="actionCursos_2"/>
+    <widget class="QMenu" name="menuProfessores">
+     <property name="title">
+      <string>Professores</string>
+     </property>
+     <addaction name="actionIncluir_3"/>
+     <addaction name="actionAlterar_4"/>
+     <addaction name="actionConsultar_2"/>
+    </widget>
+    <widget class="QMenu" name="menuCursos">
+     <property name="title">
+      <string>Cursos</string>
+     </property>
+     <addaction name="actionDisciplinas"/>
+     <addaction name="actionAlterar_2"/>
+     <addaction name="actionConsulta"/>
+    </widget>
+    <widget class="QMenu" name="menuDisciplinas">
+     <property name="title">
+      <string>Disciplinas</string>
+     </property>
+     <addaction name="actionIncluir_2"/>
+     <addaction name="actionAlterar_3"/>
+     <addaction name="actionConsultar"/>
+    </widget>
+    <addaction name="menuProfessores"/>
+    <addaction name="menuCursos"/>
     <addaction name="menuHorarios"/>
+    <addaction name="menuDisciplinas"/>
+   </widget>
+   <widget class="QMenu" name="menuRelatorios">
+    <property name="title">
+     <string>Relatorios</string>
+    </property>
+    <addaction name="actionProfessores"/>
+    <addaction name="actionDisciplinas_3"/>
+    <addaction name="actionHorario"/>
    </widget>
    <addaction name="menuCadastro_de_horarrios"/>
+   <addaction name="menuRelatorios"/>
   </widget>
   <action name="actionCursos">
-   <property name="text">
-    <string>Cursos</string>
-   </property>
-  </action>
-  <action name="actionProfessores">
-   <property name="text">
-    <string>Professores</string>
-   </property>
-  </action>
-  <action name="actionCursos_2">
    <property name="text">
     <string>Cursos</string>
    </property>
@@ -116,6 +137,81 @@
   <action name="actionJornada_Semanal">
    <property name="text">
     <string>Jornada Semanal</string>
+   </property>
+  </action>
+  <action name="actionIncluir">
+   <property name="text">
+    <string>Incluir</string>
+   </property>
+  </action>
+  <action name="actionAlterar">
+   <property name="text">
+    <string>Alterar</string>
+   </property>
+  </action>
+  <action name="actionRemover">
+   <property name="text">
+    <string>Remover</string>
+   </property>
+  </action>
+  <action name="actionDisciplinas">
+   <property name="text">
+    <string>Incluir </string>
+   </property>
+  </action>
+  <action name="actionAlterar_2">
+   <property name="text">
+    <string>Alterar</string>
+   </property>
+  </action>
+  <action name="actionConsulta">
+   <property name="text">
+    <string>Consulta</string>
+   </property>
+  </action>
+  <action name="actionIncluir_2">
+   <property name="text">
+    <string>Incluir </string>
+   </property>
+  </action>
+  <action name="actionAlterar_3">
+   <property name="text">
+    <string>Alterar</string>
+   </property>
+  </action>
+  <action name="actionConsultar">
+   <property name="text">
+    <string>Consultar</string>
+   </property>
+  </action>
+  <action name="actionProfessores">
+   <property name="text">
+    <string>Professores</string>
+   </property>
+  </action>
+  <action name="actionDisciplinas_3">
+   <property name="text">
+    <string>Cursos</string>
+   </property>
+  </action>
+  <action name="actionHorario">
+   <property name="text">
+    <string>Horario</string>
+   </property>
+  </action>
+  <action name="actionIncluir_3">
+   <property name="text">
+    <string>Incluir</string>
+   </property>
+  </action>
+  <action name="actionAlterar_4">
+   <property name="text">
+    <string>Alterar</string>
+   </property>
+  </action>
+  <action name="actionConsultar_2">
+   <property name="text">
+    <string>Consultar</string>
    </property>
   </action>
  </widget>
