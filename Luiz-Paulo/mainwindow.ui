@@ -30,5 +30,47 @@
     <addaction name="actionCadastrar_Professor"/>
     <addaction name="actionCadastrar_Turma"/>
    </widget>
-  
+   <widget class="QMenu" name="menuConsultar">
+    <property name="title">
+     <string>Consultar</string>
+    </property>
+    <addaction name="actionProfessor"/>
+    <addaction name="actionTurma"/>
+   </widget>
+   <addaction name="menuOp_es"/>
+   <addaction name="menuConsultar"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionCadastrar_Professor">
+   <property name="text">
+    <string>Cadastrar Professor</string>
+   </property>
+  </action>
+  <action name="actionCadastrar_Turma">
+   <property name="text">
+    <string>Cadastrar Turma</string>
+   </property>
+  </action>
+  <action name="actionProfessor">
+   <property name="text">
+    <string>Professor</string>
+   </property>
+  </action>
+  <action name="actionTurma">
+   <property name="text">
+    <string>Turma</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
 </ui>
