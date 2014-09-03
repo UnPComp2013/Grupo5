@@ -37,3 +37,10 @@ void MainWindow::on_actionTurma_triggered()
 {
   QMessageBox::information(this, "Consulta de Turma", "Tela de teste de consulta");
 }
+
+void MainWindow::on_btBuscar_clicked()
+{
+ if(ui->opBusca->currentText() == "Por Professor"){
+  QMessageBox::information(this,"Buscar Professor","Quando clicar no botao fazer a busca bd pelo nome do professor");
+ }
+}
