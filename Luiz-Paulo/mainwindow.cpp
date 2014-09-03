@@ -28,6 +28,11 @@ void MainWindow::on_actionCadastrar_Disciplina_triggered()
   QMessageBox::information(this, "Cadastro de Disciplina", "Tela de teste de cadastro");
 }
 
+void MainWindow::on_actionCadastrar_Horario_triggered()
+{
+   QMessageBox::information(this,"Cadastro Horario","Tela de teste para cadastro de Horario");
+}
+
 void MainWindow::on_actionProfessor_triggered()
 {
   QMessageBox::information(this, "Consulta de Professor", "Tela de teste de consulta");
