@@ -44,3 +44,9 @@ void MainWindow::on_btBuscar_clicked()
   QMessageBox::information(this,"Buscar Professor","Quando clicar no botao fazer a busca bd pelo nome do professor");
  }
 }
+
+void MainWindow::on_btLimpar_clicked()
+{
+ ui->opBusca->setCurrentText("Selecione:");
+ ui->buscar->clear();
+}
