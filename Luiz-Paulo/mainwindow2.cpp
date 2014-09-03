@@ -14,3 +14,8 @@ MainWindow2::~MainWindow2()
 {
     delete ui;
 }
+
+void MainWindow2::on_btvoltar_clicked()
+{
+    MainWindow MainWindow
+}
