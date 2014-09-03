@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="title">
-     <string>GroupBox</string>
+     <string>Busca</string>
     </property>
     <widget class="QWidget" name="">
      <property name="geometry">
