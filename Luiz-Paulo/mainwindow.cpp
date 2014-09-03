@@ -27,3 +27,8 @@ void MainWindow::on_actionProfessor_triggered()
 {
   QMessageBox::information(this, "Consulta de Professor", "Tela de teste de consulta");
 }
+
+void MainWindow::on_actionTurma_triggered()
+{
+  QMessageBox::information(this, "Consulta de Turma", "Tela de teste de consulta");
+}
