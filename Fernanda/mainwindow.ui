@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>620</width>
+    <height>413</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>130</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Buscar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>250</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>531</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+    </layout>
+   </widget>
+   <zorder>lineEdit</zorder>
+   <zorder>lineEdit</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>comboBox</zorder>
+   <zorder>pushButton_2</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>620</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCadastro">
+    <property name="title">
+     <string>Cadastro</string>
+    </property>
+    <addaction name="actionCadastro_de_Professor"/>
+    <addaction name="actionCadastro_de_Turma"/>
+    <addaction name="actionCAdastro_de_Disciplina"/>
+    <addaction name="actionCadastro_de_Hor_rios"/>
+   </widget>
+   <addaction name="menuCadastro"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionCadastro_de_Professor">
+   <property name="text">
+    <string>Cadastro de Professor</string>
+   </property>
+  </action>
+  <action name="actionCadastro_de_Turma">
+   <property name="text">
+    <string>Cadastro de Turma</string>
+   </property>
+  </action>
+  <action name="actionCAdastro_de_Disciplina">
+   <property name="text">
+    <string>Cadastro de Disciplina</string>
+   </property>
+  </action>
+  <action name="actionCadastro_de_Hor_rios">
+   <property name="text">
+    <string>Cadastro de Horários</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
