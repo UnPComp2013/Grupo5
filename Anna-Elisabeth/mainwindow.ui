@@ -27,3 +27,24 @@
      <string>OK</string>
     </property>
    </widget>
+<widget class="QScrollArea" name="Turno">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>40</y>
+      <width>120</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>118</width>
+       <height>19</height>
+      </rect>
+     </property>
