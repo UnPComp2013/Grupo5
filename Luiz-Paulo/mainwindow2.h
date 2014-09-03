@@ -14,3 +14,10 @@ class MainWindow2 : public QMainWindow
 public:
     explicit MainWindow2(QWidget *parent = 0);
     ~MainWindow2();
+
+private slots:
+    void on_btvoltar_clicked();
+
+private:
+    Ui::MainWindow2 *ui;
+};
