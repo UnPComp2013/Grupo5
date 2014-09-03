@@ -43,6 +43,11 @@ void MainWindow::on_actionTurma_triggered()
   QMessageBox::information(this, "Consulta de Turma", "Tela de teste de consulta");
 }
 
+void MainWindow::on_actionConsultar_Horario_triggered()
+{
+    QMessageBox::information(this, "Consulta de Horario", "Tela de teste para consulta de horario.");
+}
+
 void MainWindow::on_btBuscar_clicked()
 {
  if(ui->opBusca->currentText() == "Por Professor"){
