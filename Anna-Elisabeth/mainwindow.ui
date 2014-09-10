@@ -45,3 +45,16 @@
        <widget class="QPushButton" name="Buscar">
         <property name="text">
          <string>Buscar</string>
+ </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>351</width>
+       <height>22</height>
+      </rect>
