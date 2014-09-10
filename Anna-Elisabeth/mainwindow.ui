@@ -140,3 +140,10 @@
   <action name="actionTurma">
    <property name="text">
     <string>Turma</string>
+  </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
