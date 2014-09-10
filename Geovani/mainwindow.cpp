@@ -27,7 +27,15 @@ void MainWindow::Incluir()
 
 //A classe on_sobre_widget_clicked() mostrará uma janela com informações na aba SOBRE.
 
-void MainWindow::on_sobre_widget_clicked()
+
+
+void MainWindow::setar_sobre()
+{
+    ui->actionSobre->changed(ui->sobre_widget->setVisible(true););
+
+}
+
+void MainWindow::clicar()
 {
     conect(ui->actionSobre,SIGNAL(clicked()),this,SLOT(QWidgetWindow());
 }
