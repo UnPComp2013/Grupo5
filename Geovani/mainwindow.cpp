@@ -21,3 +21,10 @@ void MainWindow::Incluir()
     ui->frame_InclusaoProf->setVisible(true);
     //QMessageBox::information(this,"Cadastrado com sucesso!!","Foi realizado o cadastro");
 }
+
+
+
+void MainWindow::on_sobre_widget_clicked()
+{
+    conect(ui->actionSobre,SIGNAL(clicked()),this,SLOT(QWidgetWindow());
+}
