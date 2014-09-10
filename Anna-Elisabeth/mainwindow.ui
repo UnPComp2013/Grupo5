@@ -123,3 +123,10 @@
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
   <action name="actionProfessor">
+<property name="text">
+    <string>Professor</string>
+   </property>
+  </action>
+  <action name="actionDisciplina">
+   <property name="text">
+    <string>Disciplina</string>
