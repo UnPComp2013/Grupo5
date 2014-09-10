@@ -2,6 +2,7 @@
 #define PRIMEIRA_H
 
 #include <QMainWindow>
+#include "formulariobusca.h"
 
 namespace Ui {
 class primeira;
@@ -24,7 +25,7 @@ private slots:
 
 private:
     Ui::primeira *ui;
-
+    formulariobusca *busca;
 
 };
 
