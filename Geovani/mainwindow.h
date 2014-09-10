@@ -20,8 +20,8 @@ private:
     Ui::MainWindow *ui;
 public slots:
     void Botton();
-    void QWidgetWindow();
-
+    void setar_sobre();
+    void clicar();
 
 
 
