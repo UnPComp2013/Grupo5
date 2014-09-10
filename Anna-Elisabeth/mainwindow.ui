@@ -22,3 +22,13 @@
       <width>371</width>
       <height>80</height>
      </rect>
+</property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>371</width>
+      <height>80</height>
+     </rect>
