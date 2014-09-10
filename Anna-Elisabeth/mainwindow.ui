@@ -130,3 +130,8 @@
   <action name="actionDisciplina">
    <property name="text">
     <string>Disciplina</string>
+ </property>
+  </action>
+  <action name="actionHor_rio">
+   <property name="text">
+    <string>Horário</string>
