@@ -32,3 +32,16 @@
       <width>371</width>
       <height>80</height>
      </rect>
+  </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="Limpar">
+        <property name="text">
+         <string>Limpar</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Buscar">
+        <property name="text">
+         <string>Buscar</string>
