@@ -38,7 +38,8 @@ void formulariobusca::on_actionCadastro_de_Hor_rio_triggered()
 
 void formulariobusca::on_btLimpar_clicked()
 {
-    
+    ui->opBusca->setCurrentText("Selecione:");
+    ui->textBusca->clear();
 }
 void formulariobusca::on_btBuscar_clicked()
 {
