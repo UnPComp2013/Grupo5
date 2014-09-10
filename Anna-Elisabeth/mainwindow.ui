@@ -71,3 +71,13 @@
        <width>351</width>
        <height>22</height>
       </rect>
+</property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Turma</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Disciplina</string>
