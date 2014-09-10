@@ -104,3 +104,22 @@
    <widget class="QMenu" name="menuCadastro">
     <property name="title">
      <string>Cadastro</string>
+ </property>
+    <addaction name="separator"/>
+    <addaction name="actionProfessor"/>
+    <addaction name="actionDisciplina"/>
+    <addaction name="actionHor_rio"/>
+    <addaction name="actionTurma"/>
+   </widget>
+   <addaction name="menuCadastro"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionProfessor">
