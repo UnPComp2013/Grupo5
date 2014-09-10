@@ -7,8 +7,9 @@ primeira::primeira(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::primeira)
 {
-    
-
+    ui->setupUi(this);
+    QPixmap pix("C:/Users/Fernanda/Desktop/agenda3.jpg"); //adicionar a pasta do qt
+    ui->label_img->setPixmap(pix);
 }
 
 primeira::~primeira()
@@ -29,5 +30,6 @@ void primeira::on_btAjuda_clicked()
 
 void primeira::on_btEntrar_clicked()
 {
-    
+    busca = new formulariobusca(this);
+    busca->show();
 }
