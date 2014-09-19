@@ -1,19 +1,19 @@
-#ifndef FORMULARIOBUSCA_H
-#define FORMULARIOBUSCA_H
+#ifndef FORMBUSCA_H
+#define FORMBUSCA_H
 
 #include <QMainWindow>
 
 namespace Ui {
-class formulariobusca;
+class formbusca;
 }
 
-class formulariobusca : public QMainWindow
+class formbusca : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    explicit formulariobusca(QWidget *parent = 0);
-    ~formulariobusca();
+    explicit formbusca(QWidget *parent = 0);
+    ~formbusca();
 
 private slots:
     void on_actionCadastro_Professor_triggered();
@@ -29,7 +29,7 @@ private slots:
     void on_btBuscar_clicked();
 
 private:
-    Ui::formulariobusca *ui;
+    Ui::formbusca *ui;
 };
 
-#endif // FORMULARIOBUSCA_H
+#endif // FORMBUSCA_H
