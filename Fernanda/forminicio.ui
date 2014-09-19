@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>primeira</class>
- <widget class="QMainWindow" name="primeira">
+ <widget class="QMainWindow" name="formInicio">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,17 +11,14 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>primeira</string>
-  </property>
-  <property name="styleSheet">
-   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+   <string>formInicio</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>20</y>
+      <y>50</y>
       <width>449</width>
       <height>67</height>
      </rect>
@@ -36,7 +33,7 @@
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
-    </property>
+    </property> |||||
    </widget>
    <widget class="QLabel" name="label_img">
     <property name="geometry">
