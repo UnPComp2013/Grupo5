@@ -12,3 +12,12 @@
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
+ </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
