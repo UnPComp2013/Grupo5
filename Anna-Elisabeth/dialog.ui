@@ -9,3 +9,6 @@
     <width>400</width>
     <height>300</height>
    </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
