@@ -5,16 +5,16 @@
 #include "formulariobusca.h"
 
 namespace Ui {
-class primeira;
+class formInicio;
 }
 
-class primeira : public QMainWindow
+class formInicio : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    explicit primeira(QWidget *parent = 0);
-    ~primeira();
+    explicit formInicio(QWidget *parent = 0);
+    ~formInicio();
 
 private slots:
     void on_btSobre_clicked();
@@ -24,8 +24,8 @@ private slots:
     void on_btEntrar_clicked();
 
 private:
-    Ui::primeira *ui;
-    formulariobusca *busca;
+    Ui::formInicio *ui;
+    formlogin *fLogin;
 
 };
 
