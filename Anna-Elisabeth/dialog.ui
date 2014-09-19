@@ -56,3 +56,14 @@ p, li { white-space: pre-wrap; }
     </item>
     <item>
      <widget class="QPushButton" name="pushButton_3">
+      <property name="text">
+       <string>Ajuda</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
