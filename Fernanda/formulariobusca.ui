@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>formulariobusca</class>
- <widget class="QMainWindow" name="formulariobusca">
+ <class>formbusca</class>
+ <widget class="QMainWindow" name="formbusca">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -18,7 +18,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>40</y>
+      <y>50</y>
       <width>591</width>
       <height>101</height>
      </rect>
@@ -37,7 +37,7 @@
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <widget class="QComboBox" name="opBusca">
+       <widget class="QComboBox" name="cbopBusca">
         <item>
          <property name="text">
           <string>Selecione:</string>
@@ -102,19 +102,28 @@
      <height>21</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuTEste">
+   <widget class="QMenu" name="menuCadastro">
     <property name="title">
      <string>Cadastro</string>
     </property>
-    <addaction name="actionCadastro_Professor"/>
+    <addaction name="actionCadastro_de_Professor"/>
     <addaction name="actionCadastro_de_Disciplina"/>
     <addaction name="actionCadastro_de_Turma"/>
     <addaction name="actionCadastro_de_Hor_rio"/>
    </widget>
-   <addaction name="menuTEste"/>
+   <widget class="QMenu" name="menuConsulta">
+    <property name="title">
+     <string>Consulta</string>
+    </property>
+    <addaction name="actionLista_de_Professores"/>
+    <addaction name="actionLista_de_Disciplinas"/>
+    <addaction name="actionLista_de_Turmas"/>
+   </widget>
+   <addaction name="menuCadastro"/>
+   <addaction name="menuConsulta"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
-  <action name="actionCadastro_Professor">
+  <action name="actionCadastro_de_Professor">
    <property name="text">
     <string>Cadastro de Professor</string>
    </property>
@@ -132,6 +141,21 @@
   <action name="actionCadastro_de_Hor_rio">
    <property name="text">
     <string>Cadastro de Horário</string>
+   </property>
+  </action>
+  <action name="actionLista_de_Professores">
+   <property name="text">
+    <string>Lista de Professores</string>
+   </property>
+  </action>
+  <action name="actionLista_de_Disciplinas">
+   <property name="text">
+    <string>Lista de Disciplinas</string>
+   </property>
+  </action>
+  <action name="actionLista_de_Turmas">
+   <property name="text">
+    <string>Lista de Turmas</string>
    </property>
   </action>
  </widget>
