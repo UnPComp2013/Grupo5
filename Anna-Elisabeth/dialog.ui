@@ -44,3 +44,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QPushButton" name="pushButton">
       <property name="text">
        <string>Entrar</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
