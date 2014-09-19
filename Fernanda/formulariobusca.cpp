@@ -1,56 +1,56 @@
-#include "formulariobusca.h"
-#include "ui_formulariobusca.h"
+#include "formbusca.h"
+#include "ui_formbusca.h"
 #include <QMessageBox>
 
-formulariobusca::formulariobusca(QWidget *parent) :
+formbusca::formbusca(QWidget *parent) :
     QMainWindow(parent),
-    ui(new Ui::formulariobusca)
+    ui(new Ui::formbusca)
 {
     ui->setupUi(this);
 }
 
-formulariobusca::~formulariobusca()
+formbusca::~formbusca()
 {
     delete ui;
 }
 
-void formulariobusca::on_actionCadastro_Professor_triggered()
+void formbusca::on_actionCadastro_Professor_triggered()
 {
     QMessageBox::information(this, "Cadastro de Professor", "Tela teste para cadastro de professor!!");
 }
 
-void formulariobusca::on_actionCadastro_de_Disciplina_triggered()
+void formbusca::on_actionCadastro_de_Disciplina_triggered()
 {
     QMessageBox::information(this, "Cadastro de Turma", "Tela teste para cadastro de turma!!");
 
 }
 
-void formulariobusca::on_actionCadastro_de_Turma_triggered()
+void formbusca::on_actionCadastro_de_Turma_triggered()
 {
     QMessageBox::information(this, "Cadastro de Disciplina", "Tela teste para cadastro de disciplina!!");
 
 }
 
-void formulariobusca::on_actionCadastro_de_Hor_rio_triggered()
+void formbusca::on_actionCadastro_de_Hor_rio_triggered()
 {
     QMessageBox::information(this, "Cadastro de Horário", "Tela teste para cadastro de horário!!");
 }
 
-void formulariobusca::on_btLimpar_clicked()
+void formbusca::on_btLimpar_clicked()
 {
     ui->opBusca->setCurrentText("Selecione:");
     ui->textBusca->clear();
 }
-void formulariobusca::on_btBuscar_clicked()
+void formbusca::on_btBuscar_clicked()
 {
-     if(ui->opBusca->currentText() == "Por Professor"){
+     if(ui->cbopBusca->currentText() == "Por Professor"){
        QMessageBox::information(this, "Busca","Configura o select para buscar no bd pelo nome do professor, aí pode colocar os resultados em uma lista");
        //select * from professor where nome=pega o nome do text line;
     }else{
-        if(ui->opBusca->currentText() == "Por Turma"){
+        if(ui->cbopBusca->currentText() == "Por Turma"){
             QMessageBox::information(this, "Busca","Configura o select para buscar no bd pelo nome do professor, aí pode colocar os resultados em uma lista");
         }else{
-            if(ui->opBusca->currentText() == "Por Disciplina"){
+            if(ui->cbopBusca->currentText() == "Por Disciplina"){
                 QMessageBox::information(this, "Busca","Configura o select para buscar no bd pelo nome do professor, aí pode colocar os resultados em uma lista");
             }else{
                 QMessageBox::information(this, "Busca", "Selecione uma opção de busca.");
