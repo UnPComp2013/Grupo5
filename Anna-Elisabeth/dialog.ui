@@ -38,3 +38,9 @@ p, li { white-space: pre-wrap; }
      <width>101</width>
      <height>161</height>
     </rect>
+  </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Entrar</string>
