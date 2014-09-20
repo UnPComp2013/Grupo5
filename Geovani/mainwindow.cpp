@@ -10,6 +10,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
     ui->frame_InclusaoProf->setVisible(false);
     ui->sobreprograma->setVisible(false);
+    ui->cadastrodisciplina->setVisible(false);
 }
 
 MainWindow::~MainWindow()
