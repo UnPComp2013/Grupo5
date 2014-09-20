@@ -34,3 +34,9 @@ void MainWindow::clicar()
 {
     conect(ui->actionSobre,SIGNAL(clicked()),this,SLOT(QWidgetWindow());
 }
+
+
+void MainWindow::on_cadastrodisciplina_activated(const QModelIndex &index)
+{
+   conect(ui->lineEdit_2,SIGNAL(clcked()),this,SLOT(setVisible(bool));
+}
