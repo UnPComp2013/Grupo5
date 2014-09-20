@@ -38,5 +38,5 @@ void MainWindow::clicar()
 
 void MainWindow::on_cadastrodisciplina_activated(const QModelIndex &index)
 {
-   conect(ui->lineEdit_2,SIGNAL(clcked()),this,SLOT(setVisible(bool));
+   conect(ui->lineEdit_2,SIGNAL(clcked()),this,SLOT(setVisible(true));
 }
