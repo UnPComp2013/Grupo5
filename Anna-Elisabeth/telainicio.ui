@@ -116,3 +116,10 @@
      <width>586</width>
      <height>21</height>
     </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
