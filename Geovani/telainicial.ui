@@ -25,18 +25,54 @@
    </property>
    <widget class="QMenu" name="menuCadastro">
     <property name="title">
-     <string>Cadastro</string>
+     <string>Arquivo</string>
     </property>
+    <addaction name="actionBuscar"/>
+    <addaction name="actionProfessores"/>
+    <addaction name="actionOp_es"/>
+    <addaction name="actionSair"/>
    </widget>
    <widget class="QMenu" name="menuRelatorio">
     <property name="title">
      <string>Relatorio</string>
     </property>
    </widget>
+   <widget class="QMenu" name="menuKfuyf">
+    <property name="title">
+     <string>Cadastro</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuSobre">
+    <property name="title">
+     <string>Sobre</string>
+    </property>
+   </widget>
    <addaction name="menuCadastro"/>
+   <addaction name="menuKfuyf"/>
    <addaction name="menuRelatorio"/>
+   <addaction name="menuSobre"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionProfessores">
+   <property name="text">
+    <string>Salvar</string>
+   </property>
+  </action>
+  <action name="actionSair">
+   <property name="text">
+    <string>Sair</string>
+   </property>
+  </action>
+  <action name="actionBuscar">
+   <property name="text">
+    <string>Buscar</string>
+   </property>
+  </action>
+  <action name="actionOp_es">
+   <property name="text">
+    <string>Opções</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
