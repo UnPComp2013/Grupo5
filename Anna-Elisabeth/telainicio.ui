@@ -93,3 +93,19 @@
             <weight>75</weight>
             <bold>true</bold>
            </font>
+         </property>
+          <property name="text">
+           <string>Senha:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_3"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
