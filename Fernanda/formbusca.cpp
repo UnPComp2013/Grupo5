@@ -1,6 +1,7 @@
 #include "formbusca.h"
 #include "ui_formbusca.h"
 #include <QMessageBox>
+#include <formcadprof.h>
 
 formbusca::formbusca(QWidget *parent) :
     QMainWindow(parent),
@@ -16,7 +17,9 @@ formbusca::~formbusca()
 
 void formbusca::on_actionCadastro_Professor_triggered()
 {
-    QMessageBox::information(this, "Cadastro de Professor", "Tela teste para cadastro de professor!!");
+    formcadprof fcadprof;
+    fcadprof.setModal(true);
+    fcadprof.exec();
 }
 
 void formbusca::on_actionCadastro_de_Disciplina_triggered()
