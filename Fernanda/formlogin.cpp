@@ -15,6 +15,7 @@ formlogin::~formlogin()
 
 void formlogin::on_btEntrarLogin_clicked()
 {
+    setVisible(false);
     fBusca = new formbusca(this);
     fBusca->show();
 }
