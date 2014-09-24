@@ -3,10 +3,6 @@
 
 #include <QMainWindow>
 #include <formbusca.h>
-#include <formlogin.h>
-#include <forminicio.h>
-
-
 
 namespace Ui {
 class formlogin;
@@ -28,7 +24,6 @@ private slots:
 private:
     Ui::formlogin *ui;
     formbusca *fBusca;
-    formlogin *fLogin2;
 
 
 };
