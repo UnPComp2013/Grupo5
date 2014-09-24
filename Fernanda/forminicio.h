@@ -2,7 +2,7 @@
 #define PRIMEIRA_H
 
 #include <QMainWindow>
-#include "formulariobusca.h"
+#include <formlogin.h>
 
 namespace Ui {
 class formInicio;
@@ -29,4 +29,4 @@ private:
 
 };
 
-#endif // PRIMEIRA_H
+#endif // FORMINICIO_H
