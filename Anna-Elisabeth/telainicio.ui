@@ -72,3 +72,18 @@
             <weight>75</weight>
             <bold>true</bold>
            </font>
+          </property>
+          <property name="text">
+           <string>Usuário:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_2"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_2">
