@@ -15,6 +15,13 @@ public:
     explicit formcadprof(QWidget *parent = 0);
     ~formcadprof();
     
+private slots:
+    void on_btCancelar_clicked();
+
+    void on_btLimpar_clicked();
+
+    void on_btSalvar_clicked();
+    
 private:
     Ui::formcadprof *ui;
 };
