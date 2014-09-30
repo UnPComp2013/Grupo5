@@ -16,6 +16,7 @@ formcadprof::~formcadprof()
 
 void formcadprof::on_btCancelar_clicked()
 {
+    close();
 }
 
 void formcadprof::on_btLimpar_clicked()
