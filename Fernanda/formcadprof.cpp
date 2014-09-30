@@ -21,6 +21,13 @@ void formcadprof::on_btCancelar_clicked()
 
 void formcadprof::on_btLimpar_clicked()
 {
+    ui->leNome->setText("");
+    ui->leEndereco->setText("");
+    ui->leCPF->setText("");
+    ui->leRG->setText("");
+    ui->leTelefone->setText("");
+    ui->leCelular->setText("");
+    ui->leEmail->setText("");
 }
 
 void formcadprof::on_btSalvar_clicked()
