@@ -12,3 +12,13 @@ cadastroprofessores::~cadastroprofessores()
 {
     delete ui;
 }
+
+void cadastroprofessores::on_pushButton_clicked()
+{
+
+}
+
+void cadastroprofessores::on_pushButton_3_clicked()
+{
+    close();
+}
