@@ -12,3 +12,8 @@ opcoes::~opcoes()
 {
     delete ui;
 }
+
+void opcoes::on_pushButton_3_clicked()
+{
+    close();
+}
