@@ -3,3 +3,7 @@
  <class>formbusca</class>
  <widget class="QMainWindow" name="formbusca">
   <property name="geometry">
+  <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>638</width>
