@@ -19,3 +19,8 @@ void formcadprof::on_btCancelar_clicked()
 {
     close();
 }
+
+void formcadprof::on_btLimpar_clicked()
+{
+    ui->leNome->setText("");
+    ui->leEndereco->setText("");
