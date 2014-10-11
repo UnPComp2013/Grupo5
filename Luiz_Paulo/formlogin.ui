@@ -27,3 +27,9 @@
      <font>
       <weight>75</weight>
       <bold>true</bold>
+       </font>
+    </property>
+    <property name="title">
+     <string>LOGIN</string>
+    </property>
+    
