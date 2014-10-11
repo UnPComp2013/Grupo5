@@ -305,3 +305,8 @@
     <item>
      <widget class="QPushButton" name="btCancelar">
       <property name="text">
+      <string>Cancelar</string>
+      </property>
+     </widget>
+    </item>
+    <item>
