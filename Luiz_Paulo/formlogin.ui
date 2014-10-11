@@ -86,4 +86,10 @@
            <string notr="true"/>
           </property>
           <property name="text">
+           <string>Voltar</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btEntrarLogin">
     
