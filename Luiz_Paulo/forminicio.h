@@ -11,3 +11,7 @@ class formInicio;
 class formInicio : public QMainWindow
 {
     Q_OBJECT
+
+public:
+    explicit formInicio(QWidget *parent = 0);
+    ~formInicio();
