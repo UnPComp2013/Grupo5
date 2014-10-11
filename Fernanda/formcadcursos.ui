@@ -46,5 +46,7 @@
       <widget class="QLineEdit" name="leNome"/>
      </item>
     </layout>
+    </widget>
+   <widget class="QWidget" name="layoutWidget_2">
 </ui>
 
