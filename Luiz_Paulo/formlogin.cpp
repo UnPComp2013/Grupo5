@@ -3,3 +3,8 @@
 
 formlogin::formlogin(QWidget *parent) :
     QMainWindow(parent),
+
+ui(new Ui::formlogin)
+{
+    ui->setupUi(this);
+}
