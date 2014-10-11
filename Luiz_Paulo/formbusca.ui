@@ -154,3 +154,11 @@
   </action>
   <action name="actionCadastro_de_Professor">
    <property name="text">
+      <string>Cadastro de Professor</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
+
