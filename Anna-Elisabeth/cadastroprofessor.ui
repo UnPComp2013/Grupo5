@@ -159,3 +159,10 @@
      </layout>
     </widget>
     <widget class="QWidget" name="layoutWidget_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>131</width>
+       <height>22</height>
+      </rect>
