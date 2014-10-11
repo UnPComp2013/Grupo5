@@ -176,3 +176,7 @@
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_8">
      <item>
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>Matrícula: </string>
+       </property>
