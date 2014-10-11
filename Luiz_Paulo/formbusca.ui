@@ -108,4 +108,8 @@
     <widget class="QMenu" name="menuCadastro">
     <property name="title">
      <string>Cadastro</string>
-    </property>
+    </property> 
+     <addaction name="actionCadastro_de_Professor"/>
+    <addaction name="actionCadastro_de_Disciplina"/>
+    <addaction name="actionCadastro_de_Turma"/>
+    <addaction name="actionCadastro_de_Hor_rio"/>
