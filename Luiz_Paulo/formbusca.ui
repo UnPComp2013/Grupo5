@@ -129,3 +129,7 @@
   <action name="actionCadastro_de_Disciplina">
    <property name="text">
     <string>Cadastro de Disciplina</string>
+      </property>
+  </action>
+  <action name="actionCadastro_de_Turma">
+   <property name="text">
