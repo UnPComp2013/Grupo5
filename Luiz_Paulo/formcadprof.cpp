@@ -24,3 +24,7 @@ void formcadprof::on_btLimpar_clicked()
 {
     ui->leNome->setText("");
     ui->leEndereco->setText("");
+    ui->leCPF->setText("");
+    ui->leRG->setText("");
+    ui->leTelefone->setText("");
+    ui->leCelular->setText("");
