@@ -48,3 +48,8 @@
      <item>
       <widget class="QPushButton" name="btEntrar">
        <property name="text">
+        <string>Entrar</string>
+       </property>
+      </widget>
+     </item>
+     <item>
