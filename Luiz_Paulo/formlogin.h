@@ -7,3 +7,7 @@
 namespace Ui {
 class formlogin;
 }
+
+class formlogin : public QMainWindow
+{
+    Q_OBJECT
