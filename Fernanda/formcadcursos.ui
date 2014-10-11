@@ -146,5 +146,18 @@
       <height>141</height>
      </rect>
     </property>
+     </property>
+    <property name="title">
+     <string>Grade Curricular:</string>
+    </property>
+    <widget class="QScrollArea" name="scrollGrade">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>281</width>
+       <height>80</height>
+      </rect>
+     </property>
 </ui>
 
