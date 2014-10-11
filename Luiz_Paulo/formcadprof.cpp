@@ -28,3 +28,6 @@ void formcadprof::on_btLimpar_clicked()
     ui->leRG->setText("");
     ui->leTelefone->setText("");
     ui->leCelular->setText("");
+    ui->leEmail->setText("");
+}
+
