@@ -93,3 +93,7 @@
        </widget>
       </item>
      </layout>
+       </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
