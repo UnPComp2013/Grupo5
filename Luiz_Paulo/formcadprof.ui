@@ -133,4 +133,8 @@
        <width>131</width>
        <height>22</height>
       </rect>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
      </property>
