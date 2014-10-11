@@ -26,3 +26,5 @@ private slots:
      formbusca *fBusca;
 
 };
+
+#endif // FORMLOGIN_H
