@@ -23,3 +23,7 @@ void formbusca::on_btLimpar_clicked()
     ui->textBusca->clear();
     
 }
+
+void formbusca::on_btBuscar_clicked()
+{
+     if(ui->cbopBusca->currentText() == "Por Professor"){
