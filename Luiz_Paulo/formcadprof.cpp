@@ -4,3 +4,8 @@
 
 formcadprof::formcadprof(QWidget *parent) :
     QDialog(parent),
+
+  ui(new Ui::formcadprof)
+{
+    ui->setupUi(this);
+}
