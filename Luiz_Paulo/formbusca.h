@@ -18,3 +18,6 @@ public:
     private slots:
     void on_btLimpar_clicked();
 
+    void on_btBuscar_clicked();
+
+    void on_actionCadastro_de_Professor_triggered();
