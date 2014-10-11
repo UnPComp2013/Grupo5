@@ -206,3 +206,8 @@
       <x>10</x>
       <y>350</y>
       <width>51</width>
+       <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Disciplinas: </string>
