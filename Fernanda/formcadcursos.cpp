@@ -14,4 +14,9 @@ formcadcursos::~formcadcursos()
     delete ui;
 }
 
+void formcadcursos::on_btCancelar_clicked()
+{
+    close();
+}
+
 
