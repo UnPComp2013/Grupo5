@@ -66,3 +66,8 @@
      </item>
      <item>
       <widget class="QLineEdit" name="leCPF"/>
+        </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_3">
+   
