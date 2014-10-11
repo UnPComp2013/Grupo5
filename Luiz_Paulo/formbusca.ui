@@ -68,4 +68,8 @@
       </item>
      </layout>
     </widget>
-         
+         <widget class="QWidget" name="layoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>70</y>
