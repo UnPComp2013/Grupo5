@@ -21,3 +21,9 @@
      <width>239</width>
      <height>25</height>
     </rect>
+</property>
+   <layout class="QHBoxLayout" name="horizontalLayout_10">
+    <item>
+     <widget class="QPushButton" name="btCancelar">
+      <property name="text">
+       <string>Cancelar</string>
