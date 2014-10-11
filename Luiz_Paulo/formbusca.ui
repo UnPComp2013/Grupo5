@@ -113,3 +113,7 @@
     <addaction name="actionCadastro_de_Disciplina"/>
     <addaction name="actionCadastro_de_Turma"/>
     <addaction name="actionCadastro_de_Hor_rio"/>
+      </widget>
+   <widget class="QMenu" name="menuConsulta">
+    <property name="title">
+     <string>Consulta</string>
