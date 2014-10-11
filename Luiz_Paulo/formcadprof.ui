@@ -239,3 +239,7 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>301</width>
+      <height>22</height>
