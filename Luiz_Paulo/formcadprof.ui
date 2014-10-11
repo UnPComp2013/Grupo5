@@ -195,3 +195,8 @@
       <width>121</width>
       <height>16</height>
      </rect>
+      </property>
+    <property name="text">
+     <string>Horário(s) disponivel(s): </string>
+    </property>
+   </widget>
