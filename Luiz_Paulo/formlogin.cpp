@@ -18,3 +18,10 @@ void formlogin::on_btVoltarLogin_clicked()
 {
     close();
 }
+
+void formlogin::on_btEntrarLogin_clicked()
+{
+    setVisible(false);
+    fBusca = new formbusca(this);
+    fBusca->show();
+}
