@@ -15,3 +15,7 @@ formcadprof::~formcadprof()
     delete ui;
 }
 
+void formcadprof::on_btCancelar_clicked()
+{
+    close();
+}
