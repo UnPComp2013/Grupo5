@@ -310,3 +310,8 @@
      </widget>
     </item>
     <item>
+     <widget class="QPushButton" name="btLimpar">
+      <property name="text">
+       <string>Limpar</string>
+      </property>
+     </widget>
