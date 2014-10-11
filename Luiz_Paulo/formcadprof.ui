@@ -264,3 +264,7 @@
       <x>10</x>
       <y>320</y>
       <width>301</width>
+       <height>19</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_9">
