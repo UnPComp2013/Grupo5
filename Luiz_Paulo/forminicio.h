@@ -15,3 +15,6 @@ class formInicio : public QMainWindow
 public:
     explicit formInicio(QWidget *parent = 0);
     ~formInicio();
+
+private slots:
+    void on_btEntrar_clicked();
