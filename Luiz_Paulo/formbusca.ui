@@ -89,3 +89,7 @@
        <widget class="QPushButton" name="btBuscar">
         <property name="text">
          <string>Buscar</string>
+          </property>
+       </widget>
+      </item>
+     </layout>
