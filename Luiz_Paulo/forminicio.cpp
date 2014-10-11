@@ -4,3 +4,7 @@
 
 formInicio::formInicio(QWidget *parent) :
     QMainWindow(parent),
+    ui(new Ui::formInicio)
+{
+    ui->setupUi(this);
+}
