@@ -13,3 +13,7 @@
   <property name="windowTitle">
    <string>Marcação e Gerencia de Horários</string>
   </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
