@@ -41,3 +41,9 @@
      <widget class="QPushButton" name="btSalvar">
       <property name="text">
        <string>Salvar</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
