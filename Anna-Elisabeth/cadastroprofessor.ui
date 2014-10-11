@@ -150,3 +150,12 @@
        <widget class="QLabel" name="label_5">
         <property name="text">
          <string>E-mail</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="leEmail"/>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget_6">
