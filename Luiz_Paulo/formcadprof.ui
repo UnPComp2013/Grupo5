@@ -42,3 +42,7 @@
        </property>
       </widget>
      </item>
+      <item>
+      <widget class="QLineEdit" name="leEndereco"/>
+     </item>
+    </layout>
