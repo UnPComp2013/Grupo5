@@ -21,7 +21,9 @@ void formcadcursos::on_btCancelar_clicked()
 
 void formcadcursos::on_btLimpar_clicked()
 {
-   
+    ui->leNome->setText("");
+    ui->leCoord->setText("");
+    ui->leCargaH->setText("");
 }
 
 
