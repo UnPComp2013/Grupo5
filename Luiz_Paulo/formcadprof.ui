@@ -58,3 +58,7 @@
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_3">
      <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>CPF: </string>
+       </property>
