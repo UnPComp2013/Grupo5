@@ -7,3 +7,6 @@
 namespace Ui {
 class formcadprof;
 }
+
+class formcadprof : public QDialog
+{
