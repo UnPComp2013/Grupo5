@@ -132,3 +132,8 @@
       <width>301</width>
       <height>80</height>
      </rect>
+    </property>
+    <property name="title">
+     <string>Contato:</string>
+    </property>
+    <widget class="QWidget" name="layoutWidget_5">
