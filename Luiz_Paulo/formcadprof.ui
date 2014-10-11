@@ -292,3 +292,8 @@
     </layout>
    </widget>
   </widget>
+   <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>440</y>
