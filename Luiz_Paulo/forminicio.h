@@ -3,3 +3,7 @@
 
 #include <QMainWindow>
 #include <formlogin.h>
+
+namespace Ui {
+class formInicio;
+}
