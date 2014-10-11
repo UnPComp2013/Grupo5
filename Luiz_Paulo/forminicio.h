@@ -7,3 +7,7 @@
 namespace Ui {
 class formInicio;
 }
+
+class formInicio : public QMainWindow
+{
+    Q_OBJECT
