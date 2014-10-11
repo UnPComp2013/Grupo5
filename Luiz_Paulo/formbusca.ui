@@ -137,4 +137,8 @@
    </property>
   </action>
   <action name="actionCadastro_de_Hor_rio">
+   <action name="actionLista_de_Professores">
+   <property name="text">
+    <string>Lista de Professores</string>
+   </property>
    
