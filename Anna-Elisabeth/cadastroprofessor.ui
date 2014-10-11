@@ -137,3 +137,10 @@
      <string>Contato:</string>
     </property>
     <widget class="QWidget" name="layoutWidget_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>281</width>
+       <height>22</height>
+      </rect>
