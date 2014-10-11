@@ -53,3 +53,10 @@
       </widget>
      </item>
      <item>
+       <widget class="QPushButton" name="btSobre">
+       <property name="text">
+        <string>Sobre</string>
+       </property>
+      </widget>
+     </item>
+     <item>
