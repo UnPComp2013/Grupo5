@@ -72,3 +72,12 @@
       <widget class="QLabel" name="label_2">
        <property name="text">
         <string>Endereço:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="leEndereco"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_3">
