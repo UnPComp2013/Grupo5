@@ -35,3 +35,8 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
+    <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>180</y>
