@@ -22,5 +22,8 @@
      <height>411</height>
     </rect>
    </property>
+   <property name="title">
+    <string>Cadastro de Curso</string>
+   </property>
 </ui>
 
