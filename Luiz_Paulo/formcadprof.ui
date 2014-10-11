@@ -62,3 +62,7 @@
        <property name="text">
         <string>CPF: </string>
        </property>
+        </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="leCPF"/>
