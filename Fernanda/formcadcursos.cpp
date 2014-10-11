@@ -26,4 +26,8 @@ void formcadcursos::on_btLimpar_clicked()
     ui->leCargaH->setText("");
 }
 
+void formcadcursos::on_btSalvar_clicked()
+{
+    
+}
 
