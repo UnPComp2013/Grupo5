@@ -8,3 +8,8 @@ ui(new Ui::formlogin)
 {
     ui->setupUi(this);
 }
+
+formlogin::~formlogin()
+{
+    delete ui;
+}
