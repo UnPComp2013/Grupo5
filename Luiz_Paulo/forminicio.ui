@@ -65,3 +65,9 @@
         <string>Ajuda</string>
        </property>
       </widget>
+       </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
