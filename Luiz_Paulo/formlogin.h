@@ -3,3 +3,7 @@
 
 #include <QMainWindow>
 #include <formbusca.h>
+
+namespace Ui {
+class formlogin;
+}
