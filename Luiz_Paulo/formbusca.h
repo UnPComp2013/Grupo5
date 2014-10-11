@@ -24,3 +24,7 @@ public:
 
 private:
     Ui::formbusca *ui;
+
+};
+
+#endif // FORMBUSCA_H
