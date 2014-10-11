@@ -272,3 +272,8 @@
       <widget class="QCheckBox" name="checkBox">
        <property name="text">
         <string>Manhã</string>
+        </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_2">
