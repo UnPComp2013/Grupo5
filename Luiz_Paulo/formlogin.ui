@@ -65,5 +65,14 @@
         <item>
          <widget class="QLabel" name="label_2">
           <property name="text">
-           <string>Senha:  </string>
+           <string>Senha:  </string
+           </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_2">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+         </widget>
     
