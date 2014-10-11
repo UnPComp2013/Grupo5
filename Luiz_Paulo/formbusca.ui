@@ -150,3 +150,7 @@
   <action name="actionLista_de_Turmas">
    <property name="text">
     <string>Lista de Turmas</string>   
+     </property>
+  </action>
+  <action name="actionCadastro_de_Professor">
+   <property name="text">
