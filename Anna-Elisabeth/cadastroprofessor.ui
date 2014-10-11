@@ -144,3 +144,9 @@
        <width>281</width>
        <height>22</height>
       </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>E-mail</string>
