@@ -110,3 +110,7 @@
        <y>20</y>
        <width>281</width>
        <height>22</height>
+        </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
