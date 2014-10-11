@@ -121,3 +121,7 @@
     <addaction name="actionLista_de_Professores"/>
     <addaction name="actionLista_de_Disciplinas"/>
     <addaction name="actionLista_de_Turmas"/>
+       </widget>
+   <addaction name="menuCadastro"/>
+   <addaction name="menuConsulta"/>
+  </widget>
