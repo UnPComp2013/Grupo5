@@ -49,4 +49,9 @@
           <property name="text">
            <string>Usuário:</string>
           </property>
+           </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="styleSheet">
     
