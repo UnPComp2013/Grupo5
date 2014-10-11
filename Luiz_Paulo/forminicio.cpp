@@ -8,3 +8,8 @@ formInicio::formInicio(QWidget *parent) :
 {
     ui->setupUi(this);
 }
+
+formInicio::~formInicio()
+{
+    delete ui;
+}
