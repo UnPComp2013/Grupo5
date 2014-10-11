@@ -3,3 +3,7 @@
 
 
 #include <QDialog>
+
+namespace Ui {
+class formcadprof;
+}
