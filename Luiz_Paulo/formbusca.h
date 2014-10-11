@@ -14,3 +14,7 @@ class formbusca : public QMainWindow
 public:
     explicit formbusca(QWidget *parent = 0);
     ~formbusca();
+    
+    private slots:
+    void on_btLimpar_clicked();
+
