@@ -23,7 +23,10 @@ void formInicio::on_btEntrar_clicked()
 
 void formInicio::on_btSobre_clicked()
 {
-    
         QMessageBox::information(this, "Sobre o programa", "Aqui vão estar algumas informações sobre o programa. Quem desenvolvel, porque, ...");
-    
+}
+
+void formInicio::on_btAjuda_clicked()
+{
+     QMessageBox::information(this, "Ajuda", "Aqui pode estar a documentação do programa. Tipo um tutorial de como usar.");
 }
