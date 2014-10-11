@@ -164,3 +164,7 @@
         </property>
        </widget>
       </item>
+       </widget>
+   <widget class="QWidget" name="layoutWidget_7">
+    <property name="geometry">
+     <rect>
