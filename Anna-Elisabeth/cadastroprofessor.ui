@@ -47,3 +47,10 @@
    </layout>
   </widget>
   <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>40</y>
+     <width>321</width>
+     <height>411</height>
+    </rect>
