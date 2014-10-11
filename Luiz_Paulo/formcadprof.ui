@@ -98,3 +98,7 @@
       <y>150</y>
       <width>301</width>
       <height>80</height>
+       </rect>
+    </property>
+    <property name="title">
+     <string>Contato:</string>
