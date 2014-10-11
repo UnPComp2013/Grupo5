@@ -13,3 +13,8 @@ formlogin::~formlogin()
 {
     delete ui;
 }
+
+void formlogin::on_btVoltarLogin_clicked()
+{
+    close();
+}
