@@ -5,3 +5,6 @@
 
 formbusca::formbusca(QWidget *parent) :
     QMainWindow(parent),
+
+ ui(new Ui::formbusca)
+{
