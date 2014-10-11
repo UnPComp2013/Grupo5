@@ -142,3 +142,7 @@
         </property>
        </widget>
       </item>
+        <item>
+       <widget class="QLineEdit" name="leCelular"/>
+      </item>
+     </layout>
