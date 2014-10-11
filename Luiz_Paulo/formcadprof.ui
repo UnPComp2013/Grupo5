@@ -180,3 +180,8 @@
        <property name="text">
         <string>Matrícula: </string>
        </property>
+        </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_8"/>
+     </item>
