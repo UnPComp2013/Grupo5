@@ -85,4 +85,8 @@
         <string>RG:</string>
        </property>
       </widget>
+     </item> 
+     <item>
+      <widget class="QLineEdit" name="leRG"/>
      </item>
+    </layout>
