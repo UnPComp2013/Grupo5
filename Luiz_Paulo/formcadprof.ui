@@ -172,3 +172,7 @@
       <y>250</y>
       <width>201</width>
       <height>22</height>
+       </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_8">
+     <item>
