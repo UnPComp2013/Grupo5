@@ -13,3 +13,10 @@ formInicio::~formInicio()
 {
     delete ui;
 }
+
+void formInicio::on_btEntrar_clicked()
+{
+
+    fLogin = new formlogin(this);
+    fLogin->show();
+}
