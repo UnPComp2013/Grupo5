@@ -44,3 +44,7 @@
       <height>181</height>
      </rect>
     </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="btEntrar">
+       <property name="text">
