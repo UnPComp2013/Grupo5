@@ -19,4 +19,9 @@ void formcadcursos::on_btCancelar_clicked()
     close();
 }
 
+void formcadcursos::on_btLimpar_clicked()
+{
+   
+}
+
 
