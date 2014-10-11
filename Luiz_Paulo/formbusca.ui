@@ -133,3 +133,7 @@
   </action>
   <action name="actionCadastro_de_Turma">
    <property name="text">
+     <string>Cadastro de Turma</string>
+   </property>
+  </action>
+  <action name="actionCadastro_de_Hor_rio">
