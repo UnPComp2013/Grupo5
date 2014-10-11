@@ -26,3 +26,7 @@ private slots:
 
 private:
     Ui::formcadprof *ui;
+
+};
+
+#endif // FORMCADPROF_H
