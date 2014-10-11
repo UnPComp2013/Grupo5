@@ -235,3 +235,7 @@
     <property name="text">
      <string>Add</string>
     </property>
+     </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
