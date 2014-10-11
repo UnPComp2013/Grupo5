@@ -102,3 +102,7 @@
     </property>
     <property name="title">
      <string>Contato:</string>
+      </property>
+    <widget class="QWidget" name="layoutWidget_4">
+     <property name="geometry">
+      <rect>
