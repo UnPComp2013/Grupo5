@@ -22,4 +22,8 @@ private slots:
 
     void on_btSalvar_clicked();
 
+private:
+    Ui::formcadcursos *ui;
+};
 
+#endif // FORMCADCURSOS_H
