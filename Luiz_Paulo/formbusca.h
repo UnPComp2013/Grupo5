@@ -21,3 +21,6 @@ public:
     void on_btBuscar_clicked();
 
     void on_actionCadastro_de_Professor_triggered();
+
+private:
+    Ui::formbusca *ui;
