@@ -211,3 +211,8 @@
     </property>
     <property name="text">
      <string>Disciplinas: </string>
+      </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
