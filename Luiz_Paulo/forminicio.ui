@@ -27,3 +27,7 @@
      <font>
       <pointsize>20</pointsize>
      </font>
+  </property>
+    <property name="text">
+     <string>Marcação e Gerencia de Horários</string>
+    </property>
