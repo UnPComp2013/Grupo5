@@ -60,3 +60,8 @@
       </widget>
      </item>
      <item>
+      <widget class="QPushButton" name="btAjuda">
+       <property name="text">
+        <string>Ajuda</string>
+       </property>
+      </widget>
