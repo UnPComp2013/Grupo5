@@ -2,3 +2,7 @@
 <ui version="4.0">
  <class>formlogin</class>
  <widget class="QMainWindow" name="formlogin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
