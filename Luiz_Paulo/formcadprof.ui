@@ -159,3 +159,8 @@
      <layout class="QHBoxLayout" name="horizontalLayout_7">
       <item>
        <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>Telefone:</string>
+        </property>
+       </widget>
+      </item>
