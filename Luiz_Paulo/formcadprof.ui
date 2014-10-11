@@ -155,3 +155,7 @@
        <width>141</width>
        <height>22</height>
       </rect>
+       </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <widget class="QLabel" name="label_7">
