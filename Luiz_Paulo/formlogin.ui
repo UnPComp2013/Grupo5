@@ -92,4 +92,10 @@
         </item>
         <item>
          <widget class="QPushButton" name="btEntrarLogin">
+         <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>Entrar</string>
+          </property>
     
