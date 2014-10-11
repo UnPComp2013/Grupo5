@@ -11,3 +11,8 @@ formbusca::formbusca(QWidget *parent) :
 {
 ui->setupUi(this);
 }
+
+formbusca::~formbusca()
+{
+    delete ui;
+}
