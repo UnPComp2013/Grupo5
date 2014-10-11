@@ -138,3 +138,7 @@
        <widget class="QLabel" name="label_6">
         <property name="text">
      </property>
+      <string>Celular:</string>
+        </property>
+       </widget>
+      </item>
