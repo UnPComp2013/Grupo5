@@ -27,3 +27,10 @@
      <widget class="QPushButton" name="btCancelar">
       <property name="text">
        <string>Cancelar</string>
+   </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btLimpar">
+      <property name="text">
+       <string>Limpar</string>
