@@ -33,6 +33,8 @@ void formcadprof::on_btLimpar_clicked()
 
 void formcadprof::on_btSalvar_clicked()
 {
+  
+      QMessageBox::information(this, "Sobre dados", "Deseja salvar dados?");
 
 
 }
