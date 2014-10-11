@@ -1,0 +1,2 @@
+#ifndef FORMINICIO_H
+#define FORMINICIO_H
