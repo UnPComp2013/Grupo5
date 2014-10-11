@@ -200,3 +200,9 @@
      <string>Horário(s) disponivel(s): </string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>350</y>
+      <width>51</width>
