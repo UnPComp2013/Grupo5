@@ -23,3 +23,7 @@
       <height>101</height>
      </rect>
     </property>
+     <property name="title">
+     <string>Busca</string>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
