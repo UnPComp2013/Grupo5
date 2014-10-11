@@ -26,3 +26,8 @@ private slots:
 private:
     Ui::formInicio *ui;
     formlogin *fLogin;
+
+
+};
+
+#endif // FORMINICIO_H
