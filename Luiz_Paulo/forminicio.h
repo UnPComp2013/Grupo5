@@ -22,3 +22,7 @@ private slots:
     void on_btSobre_clicked();
 
     void on_btAjuda_clicked();
+
+private:
+    Ui::formInicio *ui;
+    formlogin *fLogin;
