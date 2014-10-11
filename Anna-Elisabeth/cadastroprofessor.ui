@@ -116,3 +116,12 @@
       <widget class="QLabel" name="label_4">
        <property name="text">
         <string>RG:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="leRG"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
