@@ -98,4 +98,12 @@
           <property name="text">
            <string>Entrar</string>
           </property>
+           </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
     
