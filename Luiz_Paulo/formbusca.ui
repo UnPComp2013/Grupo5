@@ -54,4 +54,8 @@
         <item>
          <property name="text">
           <string>Por Turma</string>
+            </property>
+        </item>
+        <item>
+         <property name="text">
          
