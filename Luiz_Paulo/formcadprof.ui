@@ -46,3 +46,7 @@
       <widget class="QLineEdit" name="leEndereco"/>
      </item>
     </layout>
+ </widget>
+   <widget class="QWidget" name="layoutWidget_2">
+    <property name="geometry">
+     <rect>
