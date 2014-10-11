@@ -22,3 +22,8 @@
       <width>449</width>
       <height>67</height>
      </rect>
+     </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
