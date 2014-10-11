@@ -58,4 +58,10 @@
         </item>
         <item>
          <property name="text">
+           <string>Por Disciplina</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      
          
