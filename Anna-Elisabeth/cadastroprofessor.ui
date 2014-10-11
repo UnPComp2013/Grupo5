@@ -246,3 +246,16 @@
       <width>51</width>
       <height>16</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>Disciplinas: </string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>360</y>
+      <width>151</width>
+      <height>22</height>
+     </rect>
