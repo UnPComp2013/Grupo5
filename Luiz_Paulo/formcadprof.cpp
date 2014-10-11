@@ -10,3 +10,8 @@ formcadprof::formcadprof(QWidget *parent) :
     ui->setupUi(this);
 }
 
+formcadprof::~formcadprof()
+{
+    delete ui;
+}
+
