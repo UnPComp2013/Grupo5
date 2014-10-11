@@ -11,3 +11,7 @@ class formlogin;
 class formlogin : public QMainWindow
 {
     Q_OBJECT
+
+public:
+    explicit formlogin(QWidget *parent = 0);
+    ~formlogin();
