@@ -27,3 +27,7 @@
      <string>Busca</string>
     </property>
     <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
