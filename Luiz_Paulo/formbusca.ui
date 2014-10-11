@@ -63,5 +63,9 @@
         </item>
        </widget>
       </item>
-      
+       <item>
+       <widget class="QLineEdit" name="textBusca"/>
+      </item>
+     </layout>
+    </widget>
          
