@@ -18,3 +18,5 @@ public:
     
 private slots:
     void on_btVoltarLogin_clicked();
+
+    void on_btEntrarLogin_clicked();
