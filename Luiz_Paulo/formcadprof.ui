@@ -315,3 +315,8 @@
        <string>Limpar</string>
       </property>
      </widget>
+      </item>
+    <item>
+     <widget class="QPushButton" name="btSalvar">
+      <property name="text">
+       <string>Salvar</string>
