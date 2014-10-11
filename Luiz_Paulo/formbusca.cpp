@@ -16,3 +16,10 @@ formbusca::~formbusca()
 {
     delete ui;
 }
+
+void formbusca::on_btLimpar_clicked()
+{
+    ui->cbopBusca->setCurrentText("Selecione:");
+    ui->textBusca->clear();
+    
+}
