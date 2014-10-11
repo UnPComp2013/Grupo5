@@ -34,3 +34,7 @@ void formbusca::on_btBuscar_clicked()
             QMessageBox::information(this, "Busca","Configura o select para buscar no bd pelo nome do professor, aí pode colocar os resultados em uma lista");
             }else{
                 QMessageBox::information(this, "Busca", "Selecione uma opção de busca.");
+            }
+        }
+    }
+}
