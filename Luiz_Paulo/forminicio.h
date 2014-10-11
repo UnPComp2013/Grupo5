@@ -18,3 +18,7 @@ public:
 
 private slots:
     void on_btEntrar_clicked();
+ 
+    void on_btSobre_clicked();
+
+    void on_btAjuda_clicked();
