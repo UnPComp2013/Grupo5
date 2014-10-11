@@ -15,3 +15,6 @@ class formlogin : public QMainWindow
 public:
     explicit formlogin(QWidget *parent = 0);
     ~formlogin();
+    
+private slots:
+    void on_btVoltarLogin_clicked();
