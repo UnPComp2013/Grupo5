@@ -141,4 +141,9 @@
    <property name="text">
     <string>Lista de Professores</string>
    </property>
+     </action>
+  <action name="actionLista_de_Disciplinas">
+   <property name="text">
+    <string>Lista de Disciplinas</string>
+   </property>
    
