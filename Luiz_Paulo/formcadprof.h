@@ -10,3 +10,9 @@ class formcadprof;
 
 class formcadprof : public QDialog
 {
+
+ Q_OBJECT
+
+public:
+    explicit formcadprof(QWidget *parent = 0);
+    ~formcadprof();
