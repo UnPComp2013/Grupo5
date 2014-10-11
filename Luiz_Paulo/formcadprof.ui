@@ -185,3 +185,7 @@
      <item>
       <widget class="QLineEdit" name="lineEdit_8"/>
      </item>
+     </layout>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
