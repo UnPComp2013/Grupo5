@@ -118,3 +118,7 @@
         <property name="text">
          <string>E-mail</string>
         </property>
+         </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="leEmail"/>
