@@ -122,3 +122,8 @@
       </item>
       <item>
        <widget class="QLineEdit" name="leEmail"/>
+         </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget_5">
+    
