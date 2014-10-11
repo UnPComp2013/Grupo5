@@ -304,3 +304,9 @@
       <width>301</width>
       <height>19</height>
      </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_9">
+     <item>
+      <widget class="QCheckBox" name="checkBox">
+       <property name="text">
+        <string>Manhã</string>
