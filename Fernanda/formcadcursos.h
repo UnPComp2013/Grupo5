@@ -6,3 +6,6 @@
 namespace Ui {
 class formcadcursos;
 }
+class formcadcursos : public QDialog
+{
+    Q_OBJECT
