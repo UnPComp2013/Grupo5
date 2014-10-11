@@ -251,3 +251,9 @@
        <property name="text">
         <string>Nome: </string>
        </property>
+        </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="leNome"/>
+     </item>
+    </layout>
