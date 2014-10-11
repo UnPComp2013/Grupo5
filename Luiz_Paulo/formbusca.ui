@@ -50,4 +50,8 @@
          <property name="text">
           <string>Por Professor</string>
          </property>
+           </item>
+        <item>
+         <property name="text">
+          <string>Por Turma</string>
          
