@@ -85,3 +85,7 @@
    </attribute>
    <attribute name="toolBarBreak">
     <bool>false</bool>
+     </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
