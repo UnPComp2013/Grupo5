@@ -226,3 +226,8 @@
    <widget class="QPushButton" name="btAddDisciplina">
     <property name="geometry">
      <rect>
+     <x>230</x>
+      <y>360</y>
+      <width>61</width>
+      <height>25</height>
+     </rect>
