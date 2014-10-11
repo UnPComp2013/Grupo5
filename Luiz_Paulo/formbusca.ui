@@ -37,6 +37,14 @@
      </property>
        <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <widget class="QComboBox" name="cbopBusca">
+       <widget class="QCombo <property name="text">
+          <string>Selecione:</string>
+         </property>
+        </item>Box" name="cbopBusca">
         <item>
+          <property name="text">
+          <string>Selecione:</string>
+         </property>
+        </item>
+         
          
