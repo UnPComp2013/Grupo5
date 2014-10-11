@@ -117,3 +117,7 @@
    <widget class="QMenu" name="menuConsulta">
     <property name="title">
      <string>Consulta</string>
+       </property>
+    <addaction name="actionLista_de_Professores"/>
+    <addaction name="actionLista_de_Disciplinas"/>
+    <addaction name="actionLista_de_Turmas"/>
