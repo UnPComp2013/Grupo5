@@ -298,3 +298,9 @@
    </widget>
    <widget class="QWidget" name="layoutWidget_10">
     <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>301</width>
+      <height>19</height>
+     </rect>
