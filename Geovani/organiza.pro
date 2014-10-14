@@ -19,3 +19,16 @@ SOURCES += main.cpp\
     telainicial.cpp \
     cadastroprofessores.cpp \
     opcoes.cpp
+
+HEADERS  += telalogin.h \
+    telainicial.h \
+    cadastroprofessores.h \
+    opcoes.h
+
+FORMS    += telalogin.ui \
+    telainicial.ui \
+    cadastroprofessores.ui \
+    opcoes.ui
+
+RESOURCES += \
+    img.qrc
