@@ -41,6 +41,10 @@
     <property name="title">
      <string>Cadastro</string>
     </property>
+    <addaction name="actionProfessores_2"/>
+    <addaction name="actionDisciplinas"/>
+    <addaction name="actionCursos"/>
+    <addaction name="actionHorarios"/>
    </widget>
    <widget class="QMenu" name="menuSobre">
     <property name="title">
@@ -71,6 +75,26 @@
   <action name="actionOp_es">
    <property name="text">
     <string>Opções</string>
+   </property>
+  </action>
+  <action name="actionProfessores_2">
+   <property name="text">
+    <string>Professores</string>
+   </property>
+  </action>
+  <action name="actionDisciplinas">
+   <property name="text">
+    <string>Disciplinas</string>
+   </property>
+  </action>
+  <action name="actionCursos">
+   <property name="text">
+    <string>Cursos</string>
+   </property>
+  </action>
+  <action name="actionHorarios">
+   <property name="text">
+    <string>Horarios</string>
    </property>
   </action>
  </widget>
