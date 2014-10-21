@@ -99,7 +99,7 @@
      <x>0</x>
      <y>0</y>
      <width>638</width>
-     <height>21</height>
+     <height>20</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuCadastro">
@@ -110,6 +110,7 @@
     <addaction name="actionCadastro_de_Disciplina"/>
     <addaction name="actionCadastro_de_Turma"/>
     <addaction name="actionCadastro_de_Hor_rio"/>
+    <addaction name="actionCadastro_de_Curso"/>
    </widget>
    <widget class="QMenu" name="menuConsulta">
     <property name="title">
@@ -123,11 +124,6 @@
    <addaction name="menuConsulta"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
-  <action name="actionCadastro_de_Professor">
-   <property name="text">
-    <string>Cadastro de Professor</string>
-   </property>
-  </action>
   <action name="actionCadastro_de_Disciplina">
    <property name="text">
     <string>Cadastro de Disciplina</string>
@@ -156,6 +152,16 @@
   <action name="actionLista_de_Turmas">
    <property name="text">
     <string>Lista de Turmas</string>
+   </property>
+  </action>
+  <action name="actionCadastro_de_Professor">
+   <property name="text">
+    <string>Cadastro de Professor</string>
+   </property>
+  </action>
+  <action name="actionCadastro_de_Curso">
+   <property name="text">
+    <string>Cadastro de Curso</string>
    </property>
   </action>
  </widget>
