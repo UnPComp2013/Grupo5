@@ -2,6 +2,7 @@
 #include "ui_formbusca.h"
 #include <QMessageBox>
 #include <formcadprof.h>
+#include <formcadcursos.h>
 #include <formcaddis.h>
 
 formbusca::formbusca(QWidget *parent) :
@@ -15,31 +16,6 @@ formbusca::~formbusca()
 {
     delete ui;
 }
-
-void formbusca::on_actionCadastro_Professor_triggered()
-{
-    formcadprof fcadprof;
-    fcadprof.setModal(true);
-    fcadprof.exec();
-}
-
-void formbusca::on_actionCadastro_de_Disciplina_triggered()
-{
-    QMessageBox::information(this, "Cadastro de Turma", "Tela teste para cadastro de turma!!");
-
-}
-
-void formbusca::on_actionCadastro_de_Turma_triggered()
-{
-    QMessageBox::information(this, "Cadastro de Disciplina", "Tela teste para cadastro de disciplina!!");
-
-}
-
-void formbusca::on_actionCadastro_de_Hor_rio_triggered()
-{
-    QMessageBox::information(this, "Cadastro de Horário", "Tela teste para cadastro de horário!!");
-}
-
 void formbusca::on_btLimpar_clicked()
 {
     ui->opBusca->setCurrentText("Selecione:");
@@ -61,5 +37,12 @@ void formbusca::on_btBuscar_clicked()
             }
         }
     }   
+}
+
+void formbusca::on_actionCadastro_Professor_triggered()
+{
+    formcadprof fcadprof;
+    fcadprof.setModal(true);
+    fcadprof.exec();
 }
 
