@@ -4,3 +4,7 @@
 #include <formcadprof.h>
 #include <formcadcursos.h>
 #include <formcaddis.h>
+
+formbusca::formbusca(QWidget *parent) :
+    QMainWindow(parent),
+    ui(new Ui::formbusca)
