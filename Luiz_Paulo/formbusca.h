@@ -22,3 +22,9 @@ private slots:
     void on_btLimpar_clicked();
 
     void on_btBuscar_clicked();
+
+    void on_actionCadastro_de_Professor_triggered();
+
+    void on_actionCadastro_de_Curso_triggered();
+
+    void on_actionCadastro_de_Disciplina_triggered();
