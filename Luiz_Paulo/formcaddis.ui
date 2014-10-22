@@ -62,3 +62,7 @@
        <property name="text">
         <string>CH Minima:</string>
        </property>
+        </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="leCargaH"/>
