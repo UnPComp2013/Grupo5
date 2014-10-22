@@ -20,3 +20,6 @@ SOURCES += main.cpp\
         formsobre.cpp \
         formcaddis.cpp
 
+HEADERS  += forminicio.h \
+             formbusca.h \
+             formlogin.h \
