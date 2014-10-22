@@ -19,3 +19,8 @@ void formcaddis::on_btCancelar_clicked()
 {
     close();
 }
+
+void formcaddis::on_btLimpar_clicked()
+{
+    
+}
