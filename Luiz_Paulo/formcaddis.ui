@@ -14,3 +14,7 @@
    <string>Dialog</string>
   </property>
   <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
