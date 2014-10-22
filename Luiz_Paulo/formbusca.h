@@ -28,3 +28,8 @@ private slots:
     void on_actionCadastro_de_Curso_triggered();
 
     void on_actionCadastro_de_Disciplina_triggered();
+    
+    private:
+    Ui::formbusca *ui;
+    formcadcursos *fcadcursos;
+    formcadprof *fcadprof;
