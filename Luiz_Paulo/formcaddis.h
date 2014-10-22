@@ -11,3 +11,6 @@ class formcaddis : public QDialog
 {
     Q_OBJECT
 
+public:
+    explicit formcaddis(QWidget *parent = 0);
+    ~formcaddis();
