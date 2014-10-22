@@ -39,4 +39,4 @@ void formbusca::on_btBuscar_clicked(){
     }
 }
 
-}
+
