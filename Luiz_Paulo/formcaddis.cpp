@@ -25,3 +25,8 @@ void formcaddis::on_btLimpar_clicked()
     ui->leNome->setText("");
     ui->leCargaH->setText("");
 }
+
+void formcaddis::on_btSalvar_clicked()
+{
+    QMessageBox::information(this, "Sobre dados", "Deseja salvar dados?");
+}
