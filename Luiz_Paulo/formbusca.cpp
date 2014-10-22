@@ -50,3 +50,7 @@ void formbusca::on_actionCadastro_de_Curso_triggered(){
     fcadcursos.setModal(true);
     fcadcursos.exec();
 }
+
+void formbusca::on_actionCadastro_de_Disciplina_triggered(){
+    
+}
