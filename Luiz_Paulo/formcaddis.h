@@ -21,3 +21,9 @@ private slots:
     void on_btLimpar_clicked();
 
     void on_btSalvar_clicked();
+
+private:
+    Ui::formcaddis *ui;
+};
+
+#endif // FORMCADDIS_H
