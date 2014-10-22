@@ -14,3 +14,8 @@ formcaddis::~formcaddis()
 {
     delete ui;
 }
+
+void formcaddis::on_btCancelar_clicked()
+{
+    close();
+}
