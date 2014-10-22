@@ -27,4 +27,7 @@ void formbusca::on_btBuscar_clicked(){
      QMessageBox::information(this, "Busca","Configura o select para buscar no bd pelo nome do professor, aí pode colocar os resultados em uma lista");
        //select * from professor where nome=pega o nome do text line;
     }else{
+        if(ui->cbopBusca->currentText() == "Por Turma"){
+            QMessageBox::information(this, "Busca","Configura o select para buscar no bd pelo nome do professor, aí pode colocar os resultados em uma lista");
+        }else{
 }
