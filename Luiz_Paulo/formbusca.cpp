@@ -52,5 +52,7 @@ void formbusca::on_actionCadastro_de_Curso_triggered(){
 }
 
 void formbusca::on_actionCadastro_de_Disciplina_triggered(){
-    
+     formcaddis fcaddis;
+    fcaddis.setModal(true);
+    fcaddis.exec();
 }
