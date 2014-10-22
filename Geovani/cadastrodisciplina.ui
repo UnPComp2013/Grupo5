@@ -19,7 +19,7 @@
      <rect>
       <x>320</x>
       <y>20</y>
-      <width>401</width>
+      <width>361</width>
       <height>20</height>
      </rect>
     </property>
@@ -50,7 +50,7 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>570</x>
+      <x>510</x>
       <y>150</y>
       <width>75</width>
       <height>23</height>
@@ -63,7 +63,20 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>650</x>
+      <x>690</x>
+      <y>20</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Buscar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
       <y>150</y>
       <width>75</width>
       <height>23</height>
@@ -71,6 +84,19 @@
     </property>
     <property name="text">
      <string>Cancelar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>150</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Alterar</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -93,6 +119,8 @@
    <zorder>pushButton</zorder>
    <zorder>pushButton_2</zorder>
    <zorder>label_2</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>pushButton_4</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
