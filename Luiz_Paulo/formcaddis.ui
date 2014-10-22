@@ -22,3 +22,7 @@
      <height>141</height>
     </rect>
    </property>
+    <property name="title">
+    <string>Cadastro de Disciplina</string>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
