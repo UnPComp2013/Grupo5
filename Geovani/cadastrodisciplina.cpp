@@ -1,14 +1,9 @@
-#include "cadastrodisciplina.h"
-#include "ui_cadastrodisciplina.h"
-
-cadastrodisciplina::cadastrodisciplina(QWidget *parent) :
-    QMainWindow(parent),
-    ui(new Ui::cadastrodisciplina)
+void cadastrodisciplina::on_pushButton_clicked()
 {
-    ui->setupUi(this);
+    QMessageBox::information(this, "Sobre dados", "Deseja salvar dados?");
 }
 
-cadastrodisciplina::~cadastrodisciplina()
+void cadastrodisciplina::on_pushButton_3_clicked()
 {
-    delete ui;
+    close();
 }
