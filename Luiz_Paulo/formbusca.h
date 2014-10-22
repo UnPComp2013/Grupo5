@@ -5,3 +5,7 @@
 #include <formcadcursos.h>
 #include <formcadprof.h>
 #include <formcaddis.h>
+
+namespace Ui {
+class formbusca;
+}
