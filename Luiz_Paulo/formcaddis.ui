@@ -78,3 +78,7 @@
      <width>245</width>
      <height>27</height>
     </rect>
+    </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_10">
+    <item>
+     <widget class="QPushButton" name="btCancelar">
