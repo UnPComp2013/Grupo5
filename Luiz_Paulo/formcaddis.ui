@@ -2,3 +2,7 @@
 <ui version="4.0">
  <class>formcaddis</class>
  <widget class="QDialog" name="formcaddis">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
