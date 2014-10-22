@@ -45,3 +45,8 @@ void formbusca::on_actionCadastro_de_Professor_triggered(){
     fcadprof.exec();
 }
 
+void formbusca::on_actionCadastro_de_Curso_triggered(){
+     formcadcursos fcadcursos;
+    fcadcursos.setModal(true);
+    fcadcursos.exec();
+}
