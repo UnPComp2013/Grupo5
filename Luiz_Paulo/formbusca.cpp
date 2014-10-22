@@ -22,3 +22,7 @@ void formbusca::on_btLimpar_clicked()
     ui->cbopBusca->setCurrentText("Selecione:");
     ui->textBusca->clear();
 }
+
+void formbusca::on_btBuscar_clicked(){
+    
+}
