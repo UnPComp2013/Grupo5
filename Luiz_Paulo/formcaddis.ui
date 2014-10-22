@@ -54,3 +54,7 @@
       <y>80</y>
       <width>221</width>
       <height>22</height>
+      </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
