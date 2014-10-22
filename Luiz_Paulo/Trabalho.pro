@@ -15,3 +15,8 @@ SOURCES += main.cpp\
         forminicio.cpp \
         formbusca.cpp \
         formlogin.cpp \
+        formcadprof.cpp \
+        formcadcursos.cpp \
+        formsobre.cpp \
+        formcaddis.cpp
+
