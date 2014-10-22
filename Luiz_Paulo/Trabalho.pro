@@ -32,3 +32,6 @@ FORMS    += forminicio.ui \
             formbusca.ui \
             formlogin.ui \
             formcadprof.ui \
+            formcadcursos.ui \
+            formsobre.ui \
+            formcaddis.ui
