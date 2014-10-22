@@ -26,3 +26,7 @@
     <string>Cadastro de Disciplina</string>
    </property>
    <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
