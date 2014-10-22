@@ -14,3 +14,10 @@ class formcaddis : public QDialog
 public:
     explicit formcaddis(QWidget *parent = 0);
     ~formcaddis();
+
+private slots:
+    void on_btCancelar_clicked();
+
+    void on_btLimpar_clicked();
+
+    void on_btSalvar_clicked();
