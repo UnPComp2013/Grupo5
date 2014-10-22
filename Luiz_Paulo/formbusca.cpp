@@ -39,4 +39,7 @@ void formbusca::on_btBuscar_clicked(){
     }
 }
 
+void formbusca::on_actionCadastro_de_Professor_triggered(){
+    
+}
 
