@@ -22,5 +22,6 @@ void formcaddis::on_btCancelar_clicked()
 
 void formcaddis::on_btLimpar_clicked()
 {
-    
+    ui->leNome->setText("");
+    ui->leCargaH->setText("");
 }
