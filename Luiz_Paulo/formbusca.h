@@ -33,3 +33,8 @@ private slots:
     Ui::formbusca *ui;
     formcadcursos *fcadcursos;
     formcadprof *fcadprof;
+     formcaddis *fcaddis;
+
+};
+
+#endif // FORMBUSCA_H
