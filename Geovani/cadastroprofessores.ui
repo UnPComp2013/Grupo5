@@ -187,9 +187,9 @@
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>440</x>
+      <x>450</x>
       <y>20</y>
-      <width>271</width>
+      <width>291</width>
       <height>181</height>
      </rect>
     </property>
@@ -199,7 +199,7 @@
     <widget class="QLineEdit" name="lineEdit_3">
      <property name="geometry">
       <rect>
-       <x>90</x>
+       <x>50</x>
        <y>20</y>
        <width>141</width>
        <height>20</height>
@@ -209,7 +209,7 @@
     <widget class="QLabel" name="label_7">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>10</x>
        <y>20</y>
        <width>49</width>
        <height>20</height>
@@ -217,6 +217,65 @@
      </property>
      <property name="text">
       <string>Telefone</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>49</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Celular</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_6">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>50</y>
+       <width>141</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_4">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>50</y>
+       <width>70</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Whatsapp</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_7">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>80</y>
+       <width>221</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>49</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Email</string>
      </property>
     </widget>
    </widget>
