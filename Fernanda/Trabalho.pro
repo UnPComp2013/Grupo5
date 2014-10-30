@@ -10,3 +10,11 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = Trabalho
 TEMPLATE = app
 
+SOURCES += main.cpp\
+        forminicio.cpp \
+    formbusca.cpp \
+    formlogin.cpp \
+    formcadprof.cpp \
+    formcadcursos.cpp \
+    formsobre.cpp \
+    formcaddis.cpp
