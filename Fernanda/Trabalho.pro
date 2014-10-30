@@ -26,3 +26,11 @@ HEADERS  += forminicio.h \
     formcadcursos.h \
     formsobre.h \
     formcaddis.h
+   
+FORMS    += forminicio.ui \
+    formbusca.ui \
+    formlogin.ui \
+    formcadprof.ui \
+    formcadcursos.ui \
+    formsobre.ui \
+    formcaddis.ui 
