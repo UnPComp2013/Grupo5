@@ -2,6 +2,7 @@
 #define FORMCADCURSOS_H
 
 #include <QDialog>
+#include <formcaddis.h>
 
 namespace Ui {
 class formcadcursos;
@@ -24,6 +25,7 @@ private slots:
 
 private:
     Ui::formcadcursos *ui;
+    formcaddis fcaddis;
 };
 
 #endif // FORMCADCURSOS_H
