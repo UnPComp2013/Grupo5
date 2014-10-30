@@ -30,4 +30,10 @@ void formcadcursos::on_btSalvar_clicked()
 {
     QMessageBox::information(this, "Sobre dados", "Deseja salvar dados?");
 }
+void formcadcursos::on_btAddDisciplina_clicked()
+{
+    formcaddis fcaddis;
+    fcaddis.setModal(true);
+    fcaddis.exec();
+}
 
