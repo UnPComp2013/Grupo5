@@ -18,3 +18,11 @@ SOURCES += main.cpp\
     formcadcursos.cpp \
     formsobre.cpp \
     formcaddis.cpp
+
+HEADERS  += forminicio.h \
+    formbusca.h \
+    formlogin.h \
+    formcadprof.h \
+    formcadcursos.h \
+    formsobre.h \
+    formcaddis.h
