@@ -1,25 +1,22 @@
-#ifndef FORMSOBRE_H
-#define FORMSOBRE_H
+#include "formsobre.h"
+#include "ui_formsobre.h"
 
-#include <QDialog>
-
-namespace Ui {
-class formsobre;
+formsobre::formsobre(QWidget *parent) :
+    QDialog(parent),
+    ui(new Ui::formsobre)
+{
+    ui->setupUi(this);
+    ui->labelInfo->setText("Informações sobre quem desenvolveu o software, porque, etc,  ....");
+    ui->labelVersao->setText("1.0");
+    ui->labelAno->setText("2014");
 }
 
-class formsobre : public QDialog
+formsobre::~formsobre()
 {
-    Q_OBJECT
+    delete ui;
+}
 
-public:
-    explicit formsobre(QWidget *parent = 0);
-    ~formsobre();
-
-private slots:
-    void on_btOk_clicked();
-
-private:
-    Ui::formsobre *ui;
-};
-
-#endif // FORMSOBRE_H
+void formsobre::on_btOk_clicked()
+{
+    close();
+}
