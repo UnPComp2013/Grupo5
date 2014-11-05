@@ -17,7 +17,8 @@ SOURCES += main.cpp\
     formcadprof.cpp \
     formcadcursos.cpp \
     formsobre.cpp \
-    formcaddis.cpp
+    formcaddis.cpp\
+    formcadturma.cpp
 
 HEADERS  += forminicio.h \
     formbusca.h \
@@ -25,7 +26,8 @@ HEADERS  += forminicio.h \
     formcadprof.h \
     formcadcursos.h \
     formsobre.h \
-    formcaddis.h
+    formcaddis.h\
+    formcadturma.h
    
 FORMS    += forminicio.ui \
     formbusca.ui \
@@ -33,4 +35,5 @@ FORMS    += forminicio.ui \
     formcadprof.ui \
     formcadcursos.ui \
     formsobre.ui \
-    formcaddis.ui 
+    formcaddis.ui\
+    formcadturma.ui
