@@ -2,6 +2,10 @@
 #define FORMBUSCA_H
 
 #include <QMainWindow>
+#include <formcadcursos.h>
+#include <formcadprof.h>
+#include <formcaddis.h>
+#include <formcadturma.h>
 
 namespace Ui {
 class formbusca;
