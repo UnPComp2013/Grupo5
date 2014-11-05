@@ -4,6 +4,7 @@
 #include <formcadprof.h>
 #include <formcadcursos.h>
 #include <formcaddis.h>
+#include <formcadturma.h>
 
 formbusca::formbusca(QWidget *parent) :
     QMainWindow(parent),
@@ -57,4 +58,10 @@ void formbusca::on_actionCadastro_de_Disciplina_triggered()
     formcaddis fcaddis;
     fcaddis.setModal(true);
     fcaddis.exec();
+}
+void formbusca::on_actionCadastro_de_Turma_triggered()
+{
+    formcadturma fcadturma;
+    fcadturma.setModal(true);
+    fcadturma.exec();
 }
