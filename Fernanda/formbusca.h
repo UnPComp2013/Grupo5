@@ -30,6 +30,10 @@ private slots:
 
 private:
     Ui::formbusca *ui;
+    formcadcursos *fcadcursos;
+    formcadprof *fcadprof;
+    formcaddis *fcaddis;
+    formcadturma *fcadturma;
     
 };
 
