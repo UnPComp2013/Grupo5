@@ -8,3 +8,7 @@
 namespace Ui {
 class telainicio;
 }
+
+class telainicio : public QDialog
+{
+    Q_OBJECT
