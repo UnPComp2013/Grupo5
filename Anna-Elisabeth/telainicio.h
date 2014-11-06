@@ -15,3 +15,9 @@ class telainicio : public QDialog
 public:
     explicit telainicio(QWidget *parent = 0);
     ~telainicio();
+private slots:
+    void on_btEntrar_clicked();
+
+    void on_btSobre_clicked();
+
+    void on_btAjuda_clicked();
