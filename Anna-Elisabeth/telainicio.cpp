@@ -7,3 +7,7 @@ telainicio::telainicio(QWidget *parent) :
 {
     ui->setupUi(this);
 }
+telainicio::~telainicio()
+{
+    delete ui;
+}
