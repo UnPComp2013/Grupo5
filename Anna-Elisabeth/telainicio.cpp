@@ -11,3 +11,9 @@ telainicio::~telainicio()
 {
     delete ui;
 }
+void telainicio::on_btEntrar_clicked()
+{
+
+    login = new telalogin(this);
+    login->show();
+}
