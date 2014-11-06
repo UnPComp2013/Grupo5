@@ -14,3 +14,8 @@ telabusca::~telabusca()
 {
     delete ui;
 }
+void telabusca::on_btLimpar_clicked()
+{
+    ui->cbopBusca->setCurrentText("Selecione:");
+    ui->textBusca->clear();
+}
