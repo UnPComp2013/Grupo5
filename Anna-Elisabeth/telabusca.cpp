@@ -10,3 +10,7 @@ telabusca::telabusca(QWidget *parent) :
 {
     ui->setupUi(this);
 }
+telabusca::~telabusca()
+{
+    delete ui;
+}
