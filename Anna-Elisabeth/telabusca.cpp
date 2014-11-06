@@ -36,3 +36,10 @@ void telabusca::on_btBuscar_clicked()
         }
     }
 }
+void telabusca::on_actionCadastro_de_Professor_triggered()
+{
+    cadastroprofessor cadprof;
+    cadprof.setModal(true);
+    cadprof.exec();
+
+}
