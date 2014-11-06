@@ -17,3 +17,9 @@ void telainicio::on_btEntrar_clicked()
     login = new telalogin(this);
     login->show();
 }
+
+void telainicio::on_btSobre_clicked()
+{
+    sb = new sobre (this);
+    sb->show();
+}
