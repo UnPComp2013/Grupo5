@@ -4,3 +4,7 @@
 #include <QMainWindow>
 #include <telalogin.h>
 #include <sobre.h>
+
+namespace Ui {
+class telainicio;
+}
