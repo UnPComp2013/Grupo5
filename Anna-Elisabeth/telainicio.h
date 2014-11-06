@@ -12,3 +12,6 @@ class telainicio;
 class telainicio : public QDialog
 {
     Q_OBJECT
+public:
+    explicit telainicio(QWidget *parent = 0);
+    ~telainicio();
