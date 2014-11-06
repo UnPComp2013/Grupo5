@@ -21,3 +21,10 @@ private slots:
     void on_btSobre_clicked();
 
     void on_btAjuda_clicked();
+private:
+    Ui::telainicio *ui;
+    telalogin *login;
+    sobre *sb;
+};
+
+#endif // TELAINICIO_H
