@@ -43,3 +43,9 @@ void telabusca::on_actionCadastro_de_Professor_triggered()
     cadprof.exec();
 
 }
+void telabusca::on_actionCadastro_de_Curso_triggered()
+{
+    cadastrocursos cadcursos;
+    cadcursos.setModal(true);
+    cadcursos.exec();
+}
