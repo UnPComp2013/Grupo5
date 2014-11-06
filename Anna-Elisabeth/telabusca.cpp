@@ -28,3 +28,6 @@ void telabusca::on_btBuscar_clicked()
          if(ui->cbopBusca->currentText() == "Por Turma"){
             QMessageBox::information(this, "Busca","Configura o select para buscar no bd pelo nome do professor, aí pode colocar os resultados em uma lista");
         }else{
+   if(ui->cbopBusca->currentText() == "Por Disciplina"){
+                QMessageBox::information(this, "Busca","Configura o select para buscar no bd pelo nome do professor, aí pode colocar os resultados em uma lista");
+            }else{
