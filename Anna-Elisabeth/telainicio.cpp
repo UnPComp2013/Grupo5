@@ -23,3 +23,8 @@ void telainicio::on_btSobre_clicked()
     sb = new sobre (this);
     sb->show();
 }
+
+void telainicio::on_btAjuda_clicked()
+{
+    QMessageBox::information(this, "Ajuda", "Aqui pode estar a documentação do programa. Tipo um tutorial de como usar.");
+}
