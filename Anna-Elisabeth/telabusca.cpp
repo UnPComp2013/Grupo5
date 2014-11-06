@@ -49,3 +49,9 @@ void telabusca::on_actionCadastro_de_Curso_triggered()
     cadcursos.setModal(true);
     cadcursos.exec();
 }
+void telabusca::on_actionCadastro_de_Disciplina_triggered()
+{
+    cadastrodisciplina caddisciplina;
+    caddisciplina.setModal(true);
+    caddisciplina.exec();
+}
