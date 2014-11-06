@@ -1,7 +1,6 @@
-#ifndef TELABUSCA_H
-#define TELABUSCA_H
-
-#include <QMainWindow>
+#include <cadastroprofessor.h>
+#include <cadastroprofessor.h>
+#include <cadastrodisciplina.h>
 
 namespace Ui {
 class telabusca;
@@ -14,9 +13,3 @@ class telabusca : public QMainWindow
 public:
     explicit telabusca(QWidget *parent = 0);
     ~telabusca();
-
-private:
-    Ui::telabusca *ui;
-};
-
-#endif // TELABUSCA_H
