@@ -36,6 +36,9 @@
     <property name="title">
      <string>Relatorio</string>
     </property>
+    <addaction name="actionDisciplinas_Cadastradas"/>
+    <addaction name="actionProfessores_3"/>
+    <addaction name="actionHorarios_2"/>
    </widget>
    <widget class="QMenu" name="menuKfuyf">
     <property name="title">
@@ -93,6 +96,21 @@
    </property>
   </action>
   <action name="actionHorarios">
+   <property name="text">
+    <string>Horarios</string>
+   </property>
+  </action>
+  <action name="actionDisciplinas_Cadastradas">
+   <property name="text">
+    <string>Disciplinas</string>
+   </property>
+  </action>
+  <action name="actionProfessores_3">
+   <property name="text">
+    <string>Professores</string>
+   </property>
+  </action>
+  <action name="actionHorarios_2">
    <property name="text">
     <string>Horarios</string>
    </property>
