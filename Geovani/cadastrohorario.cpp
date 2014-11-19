@@ -12,3 +12,14 @@ cadastrohorario::~cadastrohorario()
 {
     delete ui;
 }
+
+
+void cadastrohorario::on_pushButton_4_clicked()
+{
+    close();
+}
+
+void cadastrohorario::on_pushButton_2_clicked()
+{
+    QMessageBox::information(this, "Sobre dados", "Deseja salvar dados?");
+}
