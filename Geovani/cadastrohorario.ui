@@ -307,7 +307,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Buscar</string>
+     <string>Alterar</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_4">
@@ -315,12 +315,12 @@
      <rect>
       <x>490</x>
       <y>300</y>
-      <width>75</width>
+      <width>81</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
-     <string>Buscar</string>
+     <string>Sair/Cancelar</string>
     </property>
    </widget>
   </widget>
