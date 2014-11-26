@@ -200,12 +200,12 @@
       <rect>
        <x>40</x>
        <y>20</y>
-       <width>70</width>
+       <width>91</width>
        <height>17</height>
       </rect>
      </property>
      <property name="text">
-      <string>CheckBox</string>
+      <string>18:10 as 18:59</string>
      </property>
     </widget>
     <widget class="QCheckBox" name="checkBox_10">
@@ -218,7 +218,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>CheckBox</string>
+      <string>19:00 as 19:49</string>
      </property>
     </widget>
     <widget class="QCheckBox" name="checkBox_11">
@@ -231,7 +231,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>CheckBox</string>
+      <string>19:50 as 20:40</string>
      </property>
     </widget>
     <widget class="QCheckBox" name="checkBox_12">
@@ -239,12 +239,12 @@
       <rect>
        <x>40</x>
        <y>80</y>
-       <width>70</width>
+       <width>101</width>
        <height>17</height>
       </rect>
      </property>
      <property name="text">
-      <string>CheckBox</string>
+      <string>20:55 as 21:44</string>
      </property>
     </widget>
     <widget class="QCheckBox" name="checkBox_13">
@@ -257,7 +257,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>CheckBox</string>
+      <string>21:45 as 22:35</string>
      </property>
     </widget>
    </widget>
