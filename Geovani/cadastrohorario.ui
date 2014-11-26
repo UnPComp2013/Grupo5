@@ -19,7 +19,7 @@
      <rect>
       <x>40</x>
       <y>100</y>
-      <width>171</width>
+      <width>151</width>
       <height>171</height>
      </rect>
     </property>
@@ -31,12 +31,12 @@
       <rect>
        <x>40</x>
        <y>20</y>
-       <width>70</width>
+       <width>91</width>
        <height>17</height>
       </rect>
      </property>
      <property name="text">
-      <string>CheckBox</string>
+      <string>7:10 as 7:59</string>
      </property>
     </widget>
     <widget class="QCheckBox" name="checkBox_2">
@@ -44,12 +44,12 @@
       <rect>
        <x>40</x>
        <y>40</y>
-       <width>70</width>
+       <width>81</width>
        <height>17</height>
       </rect>
      </property>
      <property name="text">
-      <string>CheckBox</string>
+      <string>7:50 as 8:40</string>
      </property>
     </widget>
     <widget class="QCheckBox" name="checkBox_3">
@@ -57,12 +57,12 @@
       <rect>
        <x>40</x>
        <y>60</y>
-       <width>70</width>
+       <width>81</width>
        <height>17</height>
       </rect>
      </property>
      <property name="text">
-      <string>CheckBox</string>
+      <string>8:55 as 9:44</string>
      </property>
     </widget>
     <widget class="QCheckBox" name="checkBox_14">
@@ -70,12 +70,12 @@
       <rect>
        <x>40</x>
        <y>80</y>
-       <width>70</width>
+       <width>91</width>
        <height>17</height>
       </rect>
      </property>
      <property name="text">
-      <string>CheckBox</string>
+      <string>9:45 as 10:34</string>
      </property>
     </widget>
     <widget class="QCheckBox" name="checkBox_15">
@@ -83,19 +83,32 @@
       <rect>
        <x>40</x>
        <y>100</y>
-       <width>70</width>
+       <width>101</width>
        <height>17</height>
       </rect>
      </property>
      <property name="text">
-      <string>CheckBox</string>
+      <string>10:35 as 11:25</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_16">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>120</y>
+       <width>101</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>11:25 as 12:05</string>
      </property>
     </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox_2">
     <property name="geometry">
      <rect>
-      <x>240</x>
+      <x>230</x>
       <y>100</y>
       <width>151</width>
       <height>171</height>
@@ -109,12 +122,12 @@
       <rect>
        <x>40</x>
        <y>20</y>
-       <width>70</width>
+       <width>91</width>
        <height>17</height>
       </rect>
      </property>
      <property name="text">
-      <string>CheckBox</string>
+      <string>13:10 as 13:59</string>
      </property>
     </widget>
     <widget class="QCheckBox" name="checkBox_5">
@@ -122,12 +135,12 @@
       <rect>
        <x>40</x>
        <y>40</y>
-       <width>70</width>
+       <width>101</width>
        <height>17</height>
       </rect>
      </property>
      <property name="text">
-      <string>CheckBox</string>
+      <string>14:00 as 14:49</string>
      </property>
     </widget>
     <widget class="QCheckBox" name="checkBox_6">
