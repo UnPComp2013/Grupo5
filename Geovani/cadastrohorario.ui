@@ -148,12 +148,12 @@
       <rect>
        <x>40</x>
        <y>60</y>
-       <width>70</width>
+       <width>101</width>
        <height>17</height>
       </rect>
      </property>
      <property name="text">
-      <string>CheckBox</string>
+      <string>14:50 as 15:40</string>
      </property>
     </widget>
     <widget class="QCheckBox" name="checkBox_7">
@@ -161,12 +161,12 @@
       <rect>
        <x>40</x>
        <y>80</y>
-       <width>70</width>
+       <width>91</width>
        <height>17</height>
       </rect>
      </property>
      <property name="text">
-      <string>CheckBox</string>
+      <string>15:55 as 16:44</string>
      </property>
     </widget>
     <widget class="QCheckBox" name="checkBox_8">
@@ -174,12 +174,12 @@
       <rect>
        <x>40</x>
        <y>100</y>
-       <width>70</width>
+       <width>91</width>
        <height>17</height>
       </rect>
      </property>
      <property name="text">
-      <string>CheckBox</string>
+      <string>16:45 as 17:35</string>
      </property>
     </widget>
    </widget>
