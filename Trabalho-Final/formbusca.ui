@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>formbusca</class>
+ <widget class="QMainWindow" name="formbusca">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>638</width>
+    <height>498</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Buscar</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>591</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Busca</string>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>561</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QComboBox" name="cbopBusca">
+        <item>
+         <property name="text">
+          <string>Selecione:</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Por Professor</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Por Turma</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Por Disciplina</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="textBusca"/>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>70</y>
+       <width>158</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="btLimpar">
+        <property name="text">
+         <string>Limpar</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btBuscar">
+        <property name="text">
+         <string>Buscar</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="labelStatus">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>425</y>
+      <width>621</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>[+]</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="listBusca">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>170</y>
+      <width>591</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>638</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCadastro">
+    <property name="title">
+     <string>Cadastro</string>
+    </property>
+    <addaction name="actionCadastro_de_Professor"/>
+    <addaction name="actionCadastro_de_Disciplina"/>
+    <addaction name="actionCadastro_de_Turma"/>
+    <addaction name="actionCadastro_de_Hor_rio"/>
+    <addaction name="actionCadastro_de_Curso"/>
+   </widget>
+   <widget class="QMenu" name="menuAjuda">
+    <property name="title">
+     <string>Ajuda</string>
+    </property>
+    <addaction name="actionSobre"/>
+    <addaction name="actionAjuda"/>
+   </widget>
+   <addaction name="menuCadastro"/>
+   <addaction name="menuAjuda"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionCadastro_de_Disciplina">
+   <property name="text">
+    <string>Cadastro de Disciplina</string>
+   </property>
+  </action>
+  <action name="actionCadastro_de_Turma">
+   <property name="text">
+    <string>Cadastro de Turma</string>
+   </property>
+  </action>
+  <action name="actionCadastro_de_Hor_rio">
+   <property name="text">
+    <string>Cadastro de Horário</string>
+   </property>
+  </action>
+  <action name="actionCadastro_de_Professor">
+   <property name="text">
+    <string>Cadastro de Professor</string>
+   </property>
+  </action>
+  <action name="actionCadastro_de_Curso">
+   <property name="text">
+    <string>Cadastro de Curso</string>
+   </property>
+  </action>
+  <action name="actionSobre">
+   <property name="text">
+    <string>Sobre</string>
+   </property>
+  </action>
+  <action name="actionAjuda">
+   <property name="text">
+    <string>Ajuda</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
